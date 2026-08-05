@@ -1,0 +1,72 @@
+name: DTectorWatch
+options:
+  bundleIdPrefix: com.kaisa
+  deploymentTarget:
+    watchOS: "10.0"
+settings:
+  base:
+    SWIFT_VERSION: 5.0
+    DEVELOPMENT_TEAM: S7J4D76JRY
+    CODE_SIGN_STYLE: Automatic
+    CURRENT_PROJECT_VERSION: 1
+    MARKETING_VERSION: 0.20.0513
+targets:
+  DTectorWatch:
+    type: application
+    platform: watchOS
+    sources:
+      - path: FullTouch
+      - path: ../Assets/Sprites/font_small.png
+        buildPhase: resources
+      - path: ../Assets/Sprites/font_regular.png
+        buildPhase: resources
+      - path: ../Assets/Sprites/font_big.png
+        buildPhase: resources
+      - path: ../Assets/Fonts/Small.fontsettings
+        buildPhase: resources
+      - path: ../Assets/Fonts/Regular.fontsettings
+        buildPhase: resources
+      - path: ../Assets/Fonts/Big.fontsettings
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.kaisa.DTector.watchapp
+        PRODUCT_NAME: D-Tector
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: D-Tector
+        INFOPLIST_KEY_WKApplication: YES
+        INFOPLIST_KEY_WKWatchOnly: YES
+        INFOPLIST_KEY_NSMotionUsageDescription: "ใช้การเขย่าข้อมือเพื่อเดินในเกม D-Tector"
+        TARGETED_DEVICE_FAMILY: "4"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        SKIP_INSTALL: YES
+        ENABLE_USER_SCRIPT_SANDBOXING: YES
+    dependencies:
+      - target: DTectorComplication
+        embed: true
+    scheme:
+      testTargets: []
+  DTectorComplication:
+    type: app-extension
+    platform: watchOS
+    sources:
+      - path: DTectorComplication
+      - path: FullTouch/Resources/Sprites/spr_takuya_0.png
+        buildPhase: resources
+    info:
+      path: DTectorComplication/Info.plist
+      properties:
+        CFBundleDisplayName: D-Tector
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.kaisa.DTector.watchapp.complication
+        PRODUCT_NAME: D-Tector Complication
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: 0.20.0513
+        SKIP_INSTALL: YES
+        APPLICATION_EXTENSION_API_ONLY: YES
+        TARGETED_DEVICE_FAMILY: "4"

@@ -1,0 +1,293 @@
+{
+  "m_GameObject": null,
+  "m_Script": "guid:da82996f9c4a45342be3591c3606bc00:11500000",
+  "m_Name": [],
+  "m_EditorClassIdentifier": [],
+  "takuya": [
+    "sliced:characters_0",
+    "sliced:characters_1",
+    "sliced:characters_2",
+    "sliced:characters_3",
+    "sliced:characters_4",
+    "sliced:characters_5",
+    "sliced:characters_6",
+    "sliced:characters_7",
+    "sliced:characters_8",
+    "sliced:characters_9"
+  ],
+  "koji": [
+    "sliced:characters_15",
+    "sliced:characters_16",
+    "sliced:characters_17",
+    "sliced:characters_18",
+    "sliced:characters_19",
+    "sliced:characters_20",
+    "sliced:characters_21",
+    "sliced:characters_22",
+    "sliced:characters_23",
+    "sliced:characters_24"
+  ],
+  "zoe": [
+    "sliced:characters_30",
+    "sliced:characters_31",
+    "sliced:characters_32",
+    "sliced:characters_33",
+    "sliced:characters_34",
+    "sliced:characters_35",
+    "sliced:characters_36",
+    "sliced:characters_37",
+    "sliced:characters_38",
+    "sliced:characters_39"
+  ],
+  "jp": [
+    "sliced:characters_45",
+    "sliced:characters_46",
+    "sliced:characters_47",
+    "sliced:characters_48",
+    "sliced:characters_49",
+    "sliced:characters_50",
+    "sliced:characters_51",
+    "sliced:characters_52",
+    "sliced:characters_53",
+    "sliced:characters_54"
+  ],
+  "tommy": [
+    "sliced:characters_60",
+    "sliced:characters_61",
+    "sliced:characters_62",
+    "sliced:characters_63",
+    "sliced:characters_64",
+    "sliced:characters_65",
+    "sliced:characters_66",
+    "sliced:characters_67",
+    "sliced:characters_68",
+    "sliced:characters_69"
+  ],
+  "koichi": [
+    "sliced:characters_75",
+    "sliced:characters_76",
+    "sliced:characters_77",
+    "sliced:characters_78",
+    "sliced:characters_79",
+    "sliced:characters_80",
+    "sliced:characters_81",
+    "sliced:characters_82",
+    "sliced:characters_83",
+    "sliced:characters_84"
+  ],
+  "emptySprite": "guid:bdc1738b4dcb18e4593665bd3ed873b0:21300000",
+  "blackScreen": "sliced:menus_20",
+  "blackBars": "sliced:menus_15",
+  "arrows": "sliced:menus_16",
+  "arrowsSmall": "sliced:menus_18",
+  "invertedArrowsSmall": "sliced:menus_19",
+  "triggerEvent": "sliced:animations_6",
+  "eyes": [
+    "sliced:animations_7",
+    "sliced:animations_8"
+  ],
+  "loading": "sliced:misc_28",
+  "loadingComplete": "sliced:misc_29",
+  "pressAButton": [
+    "sliced:animations_60",
+    "sliced:animations_61"
+  ],
+  "hourglass": "sliced:animations_63",
+  "error": "sliced:animations_62",
+  "rewardBackground": [
+    "sliced:animations_2",
+    "sliced:animations_3",
+    "sliced:animations_4",
+    "sliced:animations_5"
+  ],
+  "rewards": [
+    "sliced:misc_5",
+    "sliced:misc_25",
+    "sliced:misc_26",
+    "sliced:misc_27",
+    null
+  ],
+  "bubble": "sliced:animations_36",
+  "digistorm": [
+    "sliced:misc_40",
+    "sliced:misc_41"
+  ],
+  "defeatedSymbol": "sliced:misc_45",
+  "gameStart_clouds": "sliced:misc_31",
+  "gameStart_trailmon": "sliced:misc_32",
+  "gameStart_spiritPlatform": "sliced:misc_33",
+  "mainMenu": [
+    "sliced:menus_0",
+    "sliced:menus_1",
+    "sliced:menus_2",
+    "sliced:menus_3",
+    "sliced:menus_4",
+    "sliced:menus_5",
+    "sliced:menus_6"
+  ],
+  "map_distanceScreen": "sliced:menus_210",
+  "status_distance": "sliced:menus_30",
+  "status_level": "sliced:menus_31",
+  "status_victories": "sliced:menus_32",
+  "status_ddock": [
+    "sliced:menus_33",
+    "sliced:menus_34",
+    "sliced:menus_35",
+    "sliced:menus_36"
+  ],
+  "status_ddockEmpty": "sliced:misc_2",
+  "game_sections": [
+    "sliced:menus_47",
+    "sliced:menus_45",
+    "sliced:menus_46"
+  ],
+  "games_reward": [
+    "sliced:menus_48",
+    "sliced:menus_49",
+    "sliced:menus_50"
+  ],
+  "games_travel": [
+    "sliced:menus_51",
+    "sliced:menus_52",
+    "sliced:menus_53",
+    "sliced:menus_54"
+  ],
+  "games_score": "sliced:misc_17",
+  "games_distance": "sliced:misc_18",
+  "database_sections": [
+    "sliced:menus_150",
+    "sliced:menus_151",
+    "sliced:menus_152",
+    "sliced:menus_153",
+    "sliced:menus_154",
+    "sliced:menus_155",
+    "sliced:menus_156",
+    "sliced:menus_160"
+  ],
+  "database_spirit_fusion": "sliced:menus_157",
+  "elements": [
+    "sliced:menus_165",
+    "sliced:menus_166",
+    "sliced:menus_167",
+    "sliced:menus_168",
+    "sliced:menus_169",
+    "sliced:menus_170",
+    "sliced:menus_171",
+    "sliced:menus_172",
+    "sliced:menus_173",
+    "sliced:menus_174"
+  ],
+  "elementNames": [
+    "sliced:misc_7",
+    "sliced:misc_8",
+    "sliced:misc_9",
+    "sliced:misc_10",
+    "sliced:misc_11",
+    "sliced:misc_12",
+    "sliced:misc_13",
+    "sliced:misc_14",
+    "sliced:misc_15",
+    "sliced:misc_16"
+  ],
+  "database_pages": [
+    "sliced:menus_191",
+    "sliced:menus_192",
+    "sliced:menus_193"
+  ],
+  "database_ddocks": [
+    "sliced:menus_37",
+    "sliced:menus_38",
+    "sliced:menus_39",
+    "sliced:menus_40"
+  ],
+  "database_searchOptions": [
+    "sliced:menus_176",
+    "sliced:menus_177",
+    "sliced:menus_178"
+  ],
+  "digits_ok": "sliced:menus_41",
+  "digits_error": "sliced:menus_42",
+  "camp": [
+    "sliced:misc_43",
+    "sliced:misc_44"
+  ],
+  "givePower": "sliced:animations_17",
+  "givePowerInverted": "sliced:animations_16",
+  "giveMassivePower": "sliced:animations_21",
+  "giveMassivePowerInverted": "sliced:animations_19",
+  "curtain": "sliced:animations_18",
+  "curtainSpecial": [
+    "sliced:animations_33",
+    "sliced:animations_34"
+  ],
+  "dTector": "sliced:animations_20",
+  "animDistance": "sliced:misc_18",
+  "ancientSpiral": [
+    "sliced:animations_30",
+    "sliced:animations_31"
+  ],
+  "ancientCircle": [
+    "sliced:animations_45",
+    "sliced:animations_46",
+    "sliced:animations_47"
+  ],
+  "stealSpiritAttractor": "sliced:misc_42",
+  "battle_mainMenu": [
+    "sliced:menus_75",
+    "sliced:menus_76",
+    "sliced:menus_77",
+    "sliced:menus_78"
+  ],
+  "battle_combatMenu": [
+    "sliced:menus_90",
+    "sliced:menus_91",
+    "sliced:menus_92",
+    "sliced:menus_93",
+    "sliced:menus_94"
+  ],
+  "battle_attackMenu": [
+    "sliced:menus_105",
+    "sliced:menus_106",
+    "sliced:menus_107"
+  ],
+  "battle_disobey": "sliced:misc_6",
+  "battle_attackCollision": "sliced:misc_4",
+  "battle_attackCollisionBig": "sliced:misc_3",
+  "battle_attackCollisionSmall": "sliced:misc_30",
+  "battle_explosion": [
+    "sliced:misc_0",
+    "sliced:misc_1"
+  ],
+  "battle_callPoints_screen": "sliced:menus_113",
+  "battle_callPoints_chooser": "sliced:menus_114",
+  "battle_gainingSP": [
+    "sliced:menus_111",
+    "sliced:menus_112"
+  ],
+  "jackpot_pad": "sliced:misc_34",
+  "jackpot_keys": [
+    "sliced:misc_37",
+    "sliced:misc_38",
+    "sliced:misc_35",
+    "sliced:misc_36"
+  ],
+  "digiHunter_arrows": [
+    "sliced:misc_48",
+    "sliced:misc_49"
+  ],
+  "digiHunter_faces": [
+    "sliced:misc_47",
+    "sliced:misc_46"
+  ],
+  "digiHunter_explosion": "sliced:misc_50",
+  "speedRunner_rocket": "sliced:misc_19",
+  "speedRunner_rocketExplosion": "sliced:misc_20",
+  "speedRunner_rocketAsteroid": "sliced:misc_21",
+  "speedRunner_rocketSpeedMark": "sliced:misc_22",
+  "speedRunner_rocketFinish": "sliced:misc_23",
+  "spirit_absorber": [
+    "sliced:misc_51",
+    "sliced:misc_52"
+  ],
+  "spirit_explosion": "sliced:misc_53"
+}

@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "game": "D-Tector V2.0 (EU)",
+  "source_format": "UndertaleModTool exported GML",
+  "sources": {
+    "main": {
+      "file": "gml_Object_obj_main_dtector_Create_0.gml",
+      "sha256": "24ec7f7628e6b5a508f0b1da74db25966a4dfe2a08d6c2b494b1d41bca972f21"
+    },
+    "save": {
+      "file": "gml_GlobalScript_fun_save_load_dtector_v2.gml",
+      "sha256": "8d414523e3e130815632fbd315e032cfdc8c3b411efc0c6293689b39bbf050cd"
+    },
+    "spirit": {
+      "file": "gml_GlobalScript_fun_calculate_spirit_dtector.gml",
+      "sha256": "117f09ae03b72d921fabff8c8bbc902f5dcd8084e045633ce7ec46bd6277c217"
+    },
+    "spirit_stats": {
+      "file": "gml_GlobalScript_fun_calculate_spirit_stats_dtector.gml",
+      "sha256": "e8cbb510c1740ae172e2662b4384bbf9feda786b654689a755e6c229dcbd82d5"
+    },
+    "spirit_unlock": {
+      "file": "gml_GlobalScript_fun_unlock_spirit_dtector.gml",
+      "sha256": "6cc0841d5d27034ed7354c699d2c0375bef4f4f3558bbf906e615b63616eff04"
+    },
+    "battle_start": {
+      "file": "gml_Object_obj_battle_start_dtector_Create_0.gml",
+      "sha256": "390f350b1cf6efb1cc366070f10ec2bae92328414a17f026719058e41cea031a"
+    },
+    "enemy_evolution": {
+      "file": "gml_Object_obj_evo_enemy_dtector_Create_0.gml",
+      "sha256": "82b5b9e49b891b37af04d5b20577db08eeb67900158f416848601132b4ab09e0"
+    },
+    "player_evolution": {
+      "file": "gml_Object_obj_evo_dtector_Alarm_0.gml",
+      "sha256": "66edd34358e0f1b12c7f940c022a55e002d3d9f71be7463df4ee97a4094a4872"
+    },
+    "step_progress": {
+      "file": "gml_GlobalScript_fun_increase_steps_dtector.gml",
+      "sha256": "64704f4bfb69a94617af4767935b929b7ca27a47e5d61e8ebea08f4253c28876"
+    },
+    "area_functions": {
+      "file": "gml_GlobalScript_fun_map_area_funtions_dtector.gml",
+      "sha256": "0f39008bdcf02f8eff332a5271308a1c8b56a9b3b7f19f3c0b3bd8532776b565"
+    },
+    "map_swap": {
+      "file": "gml_Object_obj_map_swap_dtector_Create_0.gml",
+      "sha256": "d44c6cf70c6ce49fe035fe7b6da256aa266d417eaece88e7425243022fdc6fc2"
+    },
+    "final_map_swap": {
+      "file": "gml_Object_obj_map5_swap_dtector_Alarm_0.gml",
+      "sha256": "61137422c3a3ff68b3556f49b671a6fb2e4d579da9a7632d4024ec0d061c8dfc"
+    },
+    "map_draw": {
+      "file": "gml_Object_obj_map_dtector_Draw_0.gml",
+      "sha256": "806bd265c249ac8a361c9856f2a7ee4385c774ead8c94c252d527ffbc92b6e5f"
+    },
+    "level": {
+      "file": "gml_GlobalScript_fun_change_level_dtector.gml",
+      "sha256": "d5ba0764243f574b5d6009a3e65bba57d2b49edb46a9138440feb1cfd0798278"
+    },
+    "energy": {
+      "file": "gml_GlobalScript_fun_calculate_energy_dtector.gml",
+      "sha256": "7f37c374b1ec451de1e1f1ab7672709b4f4022f3b6171c6a0294a87eab09c0b1"
+    },
+    "call": {
+      "file": "gml_GlobalScript_fun_battle_call_invoke_dtector.gml",
+      "sha256": "d553c66220c21ece06e7c8a83c2ef7615b3870dd72a674a8874f5e9ea1d14ce7"
+    },
+    "attack_filter": {
+      "file": "gml_GlobalScript_fun_filter_enemy_attack_dtector.gml",
+      "sha256": "1f75c84249708670b8c65eb65fd31ea0f19cdb144ac50a16b0b418161d1a2987"
+    },
+    "collision": {
+      "file": "gml_Object_obj_collision_dtector_Alarm_0.gml",
+      "sha256": "de21fd4af9f3c3efbd8c69f0ec0631cb2e1c616be7cb9572035cef737d8e6ba6"
+    },
+    "hit": {
+      "file": "gml_Object_obj_hit_dtector_Alarm_0.gml",
+      "sha256": "127d2eeb63014e2369e5bbe4981dee674f1269484f841dee35131a3167aad3e5"
+    },
+    "spirit_ready": {
+      "file": "gml_Object_obj_spirit_ready_dtector_Create_0.gml",
+      "sha256": "70436d0819b357ed1009cf1ed08bd4ba60ddd4e5582eb62a4ec4e7df701f9f51"
+    },
+    "spirit_reduce": {
+      "file": "gml_Object_obj_spirit_power_reduce_dtector_Alarm_0.gml",
+      "sha256": "088a6f07f8b4864ab9541795cc32ca9ab1ca5479ff18ce6bc06f27ed4ce1cd9e"
+    },
+    "character_result": {
+      "file": "gml_Object_obj_char_dtector_Alarm_2.gml",
+      "sha256": "99e28f175b87958af0de69ee2e314e2d2a49c3ecaceb542c27694f352cff3192"
+    },
+    "text_confirm": {
+      "file": "gml_Object_obj_text_ok_dtector_KeyPress_39.gml",
+      "sha256": "79ed2eddcfd5fb561bc49c320c397917c701097df6f11a59e70bd489ccc330ee"
+    },
+    "digidigit": {
+      "file": "gml_Object_obj_digidigit_dtector_Alarm_0.gml",
+      "sha256": "ddb03d53d536b46bd2a3b57e5827bb3fafb41facbdfd0af9a970f5aee57bd4db"
+    },
+    "recover_spirit": {
+      "file": "gml_Object_obj_recover_spirit_dtector_Alarm_0.gml",
+      "sha256": "8cebc4c9e80b40fd3c0fb0b40b95c0e4918b07f701cfd797b6a54ed69c73338c"
+    },
+    "lose_spirit": {
+      "file": "gml_Object_obj_lose_spirit_dtector_Create_0.gml",
+      "sha256": "c8cf21fab82a8dc7266c4b7a6a6a1cbd85f9dee13463589516f03392430a71f3"
+    },
+    "digistorm": {
+      "file": "gml_Object_obj_digistorm_dtector_Alarm_0.gml",
+      "sha256": "5507b3b8325a4caf70bbaa2fbec2f26b242dda8b6047e9c015dbdaabf36e409a"
+    },
+    "digistorm_recover": {
+      "file": "gml_Object_obj_digistorm_recover_dtector_Create_0.gml",
+      "sha256": "90682cb3bd859686aa1bf8f0b160770dfad6cb3620123ce5202b53074a1f7c2c"
+    }
+  },
+  "outputs": [
+    "acquisition.json",
+    "areas.json",
+    "characters.json",
+    "combat.json",
+    "digimon.json",
+    "encounters.json",
+    "evolutions.json",
+    "initial_state.json",
+    "manifest.json",
+    "progression.json",
+    "spirits.json",
+    "validation.json"
+  ],
+  "counts": {
+    "gml_files_in_export": 1658,
+    "digimon": 141,
+    "characters": 6,
+    "spirit_slots": 12,
+    "areas": 13,
+    "normal_area_boss_configs": 12,
+    "evolution_edges": 56,
+    "dynamic_stat_targets": 20,
+    "starting_digimon_candidates": 12,
+    "digimon_type_counts": {
+      "ancient": 6,
+      "boss": 10,
+      "champion": 26,
+      "final_boss": 13,
+      "mega": 33,
+      "rookie": 17,
+      "spirit": 12,
+      "ultimate": 24
+    }
+  }
+}

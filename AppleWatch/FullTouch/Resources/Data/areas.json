@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "areas": [
+    {
+      "id": 0,
+      "map_group": 0,
+      "distance": 6000,
+      "initial_completed": false,
+      "is_final_area": false,
+      "boss": {
+        "primary": {
+          "id": 131,
+          "name": "grumblemon",
+          "number": 444
+        },
+        "alternate_if_area_completed": 9,
+        "alternate": {
+          "id": 132,
+          "name": "gigasmon",
+          "number": 445
+        },
+        "canonical_capture_ids": {
+          "primary": 112,
+          "alternate": 113
+        }
+      }
+    },
+    {
+      "id": 1,
+      "map_group": 0,
+      "distance": 8000,
+      "initial_completed": false,
+      "is_final_area": false,
+      "boss": {
+        "primary": {
+          "id": 96,
+          "name": "azulogmon",
+          "number": 322
+        },
+        "alternate_if_area_completed": null,
+        "alternate": null,
+        "canonical_capture_ids": {
+          "primary": 96,
+          "alternate": null
+        }
+      }
+    },
+    {
+      "id": 2,
+      "map_group": 0,
+      "distance": 7000,
+      "initial_completed": false,
+      "is_final_area": false,
+      "boss": {
+        "primary": {
+          "id": 133,
+          "name": "arbormon",
+          "number": 446
+        },
+        "alternate_if_area_completed": 6,
+        "alternate": {
+          "id": 134,
+          "name": "petaldramon",
+          "number": 447
+        },
+        "canonical_capture_ids": {
+          "primary": 114,
+          "alternate": 115
+        }
+      }
+    },
+    {
+      "id": 3,
+      "map_group": 1,
+      "distance": 9000,
+      "initial_completed": false,
+      "is_final_area": false,
+      "boss": {
+        "primary": {
+          "id": 135,
+          "name": "mercurymon",
+          "number": 448
+        },
+        "alternate_if_area_completed": 10,
+        "alternate": {
+          "id": 136,
+          "name": "sephirotmon",
+          "number": 449
+        },
+        "canonical_capture_ids": {
+          "primary": 116,
+          "alternate": 117
+        }
+      }
+    },
+    {
+      "id": 4,
+      "map_group": 1,
+      "distance": 10000,
+      "initial_completed": false,
+      "is_final_area": false,
+      "boss": {
+        "primary": {
+          "id": 137,
+          "name": "lanamon",
+          "number": 450
+        },
+        "alternate_if_area_completed": 7,
+        "alternate": {
+          "id": 119,
+          "name": "calmaramon",
+          "number": 451
+        },
+        "canonical_capture_ids": {
+          "primary": 118,
+          "alternate": 119
+        }
+      }
+    },
+    {
+      "id": 5,
+      "map_group": 1,
+      "distance": 11000,
+      "initial_completed": false,
+      "is_final_area": false,
+      "boss": {
+        "primary": {
+          "id": 98,
+          "name": "ebonwumon",
+          "number": 320
+        },
+        "alternate_if_area_completed": null,
+        "alternate": null,
+        "canonical_capture_ids": {
+          "primary": 98,
+          "alternate": null
+        }
+      }
+    },
+    {
+      "id": 6,
+      "map_group": 2,
+      "distance": 9000,
+      "initial_completed": false,
+      "is_final_area": false,
+      "boss": {
+        "primary": {
+          "id": 133,
+          "name": "arbormon",
+          "number": 446
+        },
+        "alternate_if_area_completed": 2,
+        "alternate": {
+          "id": 134,
+          "name": "petaldramon",
+          "number": 447
+        },
+        "canonical_capture_ids": {
+          "primary": 114,
+          "alternate": 115
+        }
+      }
+    },
+    {
+      "id": 7,
+      "map_group": 2,
+      "distance": 7000,
+      "initial_completed": false,
+      "is_final_area": false,
+      "boss": {
+        "primary": {
+          "id": 137,
+          "name": "lanamon",
+          "number": 450
+        },
+        "alternate_if_area_completed": 4,
+        "alternate": {
+          "id": 138,
+          "name": "calmaramon",
+          "number": 451
+        },
+        "canonical_capture_ids": {
+          "primary": 118,
+          "alternate": 119
+        }
+      }
+    },
+    {
+      "id": 8,
+      "map_group": 2,
+      "distance": 10000,
+      "initial_completed": false,
+      "is_final_area": false,
+      "boss": {
+        "primary": {
+          "id": 97,
+          "name": "baihumon",
+          "number": 323
+        },
+        "alternate_if_area_completed": null,
+        "alternate": null,
+        "canonical_capture_ids": {
+          "primary": 97,
+          "alternate": null
+        }
+      }
+    },
+    {
+      "id": 9,
+      "map_group": 3,
+      "distance": 11000,
+      "initial_completed": false,
+      "is_final_area": false,
+      "boss": {
+        "primary": {
+          "id": 131,
+          "name": "grumblemon",
+          "number": 444
+        },
+        "alternate_if_area_completed": 0,
+        "alternate": {
+          "id": 132,
+          "name": "gigasmon",
+          "number": 445
+        },
+        "canonical_capture_ids": {
+          "primary": 112,
+          "alternate": 113
+        }
+      }
+    },
+    {
+      "id": 10,
+      "map_group": 3,
+      "distance": 10000,
+      "initial_completed": false,
+      "is_final_area": false,
+      "boss": {
+        "primary": {
+          "id": 135,
+          "name": "mercurymon",
+          "number": 448
+        },
+        "alternate_if_area_completed": 3,
+        "alternate": {
+          "id": 136,
+          "name": "sephirotmon",
+          "number": 449
+        },
+        "canonical_capture_ids": {
+          "primary": 116,
+          "alternate": 117
+        }
+      }
+    },
+    {
+      "id": 11,
+      "map_group": 3,
+      "distance": 10000,
+      "initial_completed": false,
+      "is_final_area": false,
+      "boss": {
+        "primary": {
+          "id": 99,
+          "name": "zhuqiaomon",
+          "number": 321
+        },
+        "alternate_if_area_completed": null,
+        "alternate": null,
+        "canonical_capture_ids": {
+          "primary": 99,
+          "alternate": null
+        }
+      }
+    },
+    {
+      "id": 12,
+      "map_group": 4,
+      "distance": 12000,
+      "initial_completed": false,
+      "is_final_area": true
+    }
+  ],
+  "map_groups": [
+    {
+      "id": 0,
+      "area_ids": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 1,
+      "area_ids": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 2,
+      "area_ids": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": 3,
+      "area_ids": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": 4,
+      "area_ids": [
+        12
+      ],
+      "final": true
+    }
+  ],
+  "completion_rules": {
+    "within_group": "After a boss, choose the next incomplete area in the current group of 3.",
+    "next_group": "When all 3 areas in a group are complete, advance to the first area of the next group.",
+    "final_area": "After status indexes 0...11 are all true, move to area 12."
+  }
+}

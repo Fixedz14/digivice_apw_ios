@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "level_range": {
+    "min": 1,
+    "max": 99
+  },
+  "level_change_counters_reset_to": 5,
+  "level_up": {
+    "each_character_stat_gain": "irandom(3) + 1 (inclusive 1...4)",
+    "caps_by_character": {
+      "0": {
+        "hp": 210,
+        "spirit": 175,
+        "stamina": 160,
+        "skill": 170
+      },
+      "1": {
+        "hp": 210,
+        "spirit": 160,
+        "stamina": 160,
+        "skill": 185
+      },
+      "2": {
+        "hp": 240,
+        "spirit": 195,
+        "stamina": 150,
+        "skill": 180
+      },
+      "3": {
+        "hp": 185,
+        "spirit": 150,
+        "stamina": 190,
+        "skill": 165
+      },
+      "4": {
+        "hp": 100,
+        "spirit": 180,
+        "stamina": 140,
+        "skill": 180
+      },
+      "5": {
+        "hp": 110,
+        "spirit": 185,
+        "stamina": 160,
+        "skill": 160
+      }
+    }
+  },
+  "level_down": {
+    "source_formula": "max(0, (stat - irandom(3)) + 1)",
+    "effective_delta_range": "-2...+1"
+  },
+  "steps": {
+    "distance_decrements_each_valid_step": 1,
+    "dpower_gain_every_steps": 100,
+    "dpower_max": 99,
+    "random_encounter_every_steps": 500,
+    "random_encounter_choice": [
+      "battle",
+      "battle",
+      "event"
+    ],
+    "force_battle_after_event": true,
+    "distance_zero_starts_boss_battle": true
+  }
+}

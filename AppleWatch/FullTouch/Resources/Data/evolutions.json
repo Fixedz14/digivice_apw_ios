@@ -1,0 +1,858 @@
+{
+  "schema_version": 1,
+  "database_edges": [
+    {
+      "from": {
+        "id": 0,
+        "name": "agumon",
+        "number": 8
+      },
+      "to": {
+        "id": 17,
+        "name": "greymon",
+        "number": 16
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 1,
+        "name": "gabumon",
+        "number": 9
+      },
+      "to": {
+        "id": 18,
+        "name": "garurumon",
+        "number": 18
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 2,
+        "name": "veemon",
+        "number": 234
+      },
+      "to": {
+        "id": 19,
+        "name": "exveemon",
+        "number": 298
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 3,
+        "name": "wormmon",
+        "number": 237
+      },
+      "to": {
+        "id": 20,
+        "name": "stingmon",
+        "number": 299
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 4,
+        "name": "guilmon",
+        "number": 360
+      },
+      "to": {
+        "id": 21,
+        "name": "growlmon",
+        "number": 362
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 5,
+        "name": "terriermon",
+        "number": 338
+      },
+      "to": {
+        "id": 22,
+        "name": "gargomon",
+        "number": 339
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 12,
+        "name": "monodramon",
+        "number": 391
+      },
+      "to": {
+        "id": 35,
+        "name": "strikedramon",
+        "number": 427
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 13,
+        "name": "patamon",
+        "number": 14
+      },
+      "to": {
+        "id": 36,
+        "name": "angemon",
+        "number": 43
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 14,
+        "name": "keramon",
+        "number": 206
+      },
+      "to": {
+        "id": 37,
+        "name": "chrysalimon",
+        "number": 225
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 17,
+        "name": "greymon",
+        "number": 16
+      },
+      "to": {
+        "id": 43,
+        "name": "metalgreymon",
+        "number": 54
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 18,
+        "name": "garurumon",
+        "number": 18
+      },
+      "to": {
+        "id": 44,
+        "name": "weregarurumon",
+        "number": 56
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 19,
+        "name": "exveemon",
+        "number": 298
+      },
+      "to": {
+        "id": 45,
+        "name": "paildramon",
+        "number": 302
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 20,
+        "name": "stingmon",
+        "number": 299
+      },
+      "to": {
+        "id": 46,
+        "name": "dinobeemon",
+        "number": 303
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 21,
+        "name": "growlmon",
+        "number": 362
+      },
+      "to": {
+        "id": 47,
+        "name": "wargrowlmon",
+        "number": 364
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 22,
+        "name": "gargomon",
+        "number": 339
+      },
+      "to": {
+        "id": 48,
+        "name": "rapidmon",
+        "number": 340
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 25,
+        "name": "leomon",
+        "number": 30
+      },
+      "to": {
+        "id": 60,
+        "name": "grapleomon",
+        "number": 424
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 35,
+        "name": "strikedramon",
+        "number": 427
+      },
+      "to": {
+        "id": 56,
+        "name": "cyberdramon",
+        "number": 222
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 36,
+        "name": "angemon",
+        "number": 43
+      },
+      "to": {
+        "id": 58,
+        "name": "magnaangemon",
+        "number": 88
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 37,
+        "name": "chrysalimon",
+        "number": 225
+      },
+      "to": {
+        "id": 59,
+        "name": "infermon",
+        "number": 329
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 42,
+        "name": "guardromon",
+        "number": 173
+      },
+      "to": {
+        "id": 66,
+        "name": "andromon",
+        "number": 24
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 43,
+        "name": "metalgreymon",
+        "number": 54
+      },
+      "to": {
+        "id": 67,
+        "name": "wargreymon",
+        "number": 90
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 44,
+        "name": "weregarurumon",
+        "number": 56
+      },
+      "to": {
+        "id": 68,
+        "name": "metalgarurumon",
+        "number": 91
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 45,
+        "name": "paildramon",
+        "number": 302
+      },
+      "to": {
+        "id": 69,
+        "name": "imperialdramon",
+        "number": 306
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 46,
+        "name": "dinobeemon",
+        "number": 303
+      },
+      "to": {
+        "id": 70,
+        "name": "grandkuwagamon",
+        "number": 307
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 47,
+        "name": "wargrowlmon",
+        "number": 364
+      },
+      "to": {
+        "id": 71,
+        "name": "gallantmon",
+        "number": 366
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 48,
+        "name": "rapidmon",
+        "number": 340
+      },
+      "to": {
+        "id": 72,
+        "name": "megagargomon",
+        "number": 367
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 56,
+        "name": "cyberdramon",
+        "number": 222
+      },
+      "to": {
+        "id": 74,
+        "name": "justimon",
+        "number": 384
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 57,
+        "name": "mephistomon",
+        "number": 387
+      },
+      "to": {
+        "id": 79,
+        "name": "gulfmon",
+        "number": 388
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 58,
+        "name": "magnaangemon",
+        "number": 88
+      },
+      "to": {
+        "id": 80,
+        "name": "seraphimon",
+        "number": 310
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 59,
+        "name": "infermon",
+        "number": 329
+      },
+      "to": {
+        "id": 82,
+        "name": "diaboromon",
+        "number": 330
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 60,
+        "name": "grapleomon",
+        "number": 424
+      },
+      "to": {
+        "id": 83,
+        "name": "saberleomon",
+        "number": 110
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 61,
+        "name": "myotismon",
+        "number": 59
+      },
+      "to": {
+        "id": 84,
+        "name": "venommiotismon",
+        "number": 89
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 66,
+        "name": "andromon",
+        "number": 24
+      },
+      "to": {
+        "id": 87,
+        "name": "hiandromon",
+        "number": 317
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 67,
+        "name": "wargreymon",
+        "number": 90
+      },
+      "to": {
+        "id": 88,
+        "name": "omegamon",
+        "number": 331
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 68,
+        "name": "metalgarurumon",
+        "number": 91
+      },
+      "to": {
+        "id": 88,
+        "name": "omegamon",
+        "number": 331
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 69,
+        "name": "imperialdramon",
+        "number": 306
+      },
+      "to": {
+        "id": 89,
+        "name": "imperialdramon_fm",
+        "number": 306
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 71,
+        "name": "gallantmon",
+        "number": 366
+      },
+      "to": {
+        "id": 90,
+        "name": "gallantmon_cm",
+        "number": 366
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 82,
+        "name": "diaboromon",
+        "number": 330
+      },
+      "to": {
+        "id": 92,
+        "name": "armagedomon",
+        "number": 354
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 84,
+        "name": "venommiotismon",
+        "number": 89
+      },
+      "to": {
+        "id": 94,
+        "name": "malomyotismon",
+        "number": 353
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 85,
+        "name": "milleniumon",
+        "number": 224
+      },
+      "to": {
+        "id": 93,
+        "name": "zedmilleniumon",
+        "number": 394
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 100,
+        "name": "agunimon",
+        "number": 432
+      },
+      "to": {
+        "id": 101,
+        "name": "burningreymon",
+        "number": 433
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 102,
+        "name": "lobomon",
+        "number": 434
+      },
+      "to": {
+        "id": 103,
+        "name": "kendogarurumon",
+        "number": 435
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 104,
+        "name": "beetlemon",
+        "number": 436
+      },
+      "to": {
+        "id": 105,
+        "name": "metalkabuterimon",
+        "number": 437
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 106,
+        "name": "kazemon",
+        "number": 438
+      },
+      "to": {
+        "id": 107,
+        "name": "zephyrmon",
+        "number": 439
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 108,
+        "name": "kumamon",
+        "number": 440
+      },
+      "to": {
+        "id": 109,
+        "name": "korikakumon",
+        "number": 441
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 110,
+        "name": "loweemon",
+        "number": 460
+      },
+      "to": {
+        "id": 111,
+        "name": "kaiserleomon",
+        "number": 461
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 112,
+        "name": "grumblemon",
+        "number": 444
+      },
+      "to": {
+        "id": 113,
+        "name": "gigasmon",
+        "number": 445
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 114,
+        "name": "arbormon",
+        "number": 446
+      },
+      "to": {
+        "id": 115,
+        "name": "petaldramon",
+        "number": 447
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 116,
+        "name": "mercurymon",
+        "number": 448
+      },
+      "to": {
+        "id": 117,
+        "name": "sephirotmon",
+        "number": 449
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 118,
+        "name": "lanamon",
+        "number": 450
+      },
+      "to": {
+        "id": 119,
+        "name": "calmaramon",
+        "number": 451
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 120,
+        "name": "duskmon",
+        "number": 442
+      },
+      "to": {
+        "id": 121,
+        "name": "velgrmon",
+        "number": 443
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 131,
+        "name": "grumblemon",
+        "number": 444
+      },
+      "to": {
+        "id": 113,
+        "name": "gigasmon",
+        "number": 445
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 133,
+        "name": "arbormon",
+        "number": 446
+      },
+      "to": {
+        "id": 115,
+        "name": "petaldramon",
+        "number": 447
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 135,
+        "name": "mercurymon",
+        "number": 448
+      },
+      "to": {
+        "id": 117,
+        "name": "sephirotmon",
+        "number": 449
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 137,
+        "name": "lanamon",
+        "number": 450
+      },
+      "to": {
+        "id": 119,
+        "name": "calmaramon",
+        "number": 451
+      },
+      "source": "digimon_database.evolution"
+    },
+    {
+      "from": {
+        "id": 139,
+        "name": "duskmon",
+        "number": 442
+      },
+      "to": {
+        "id": 121,
+        "name": "velgrmon",
+        "number": 443
+      },
+      "source": "digimon_database.evolution"
+    }
+  ],
+  "combat_evolution_rule": {
+    "roll": "irandom(100) > 50",
+    "target_must_be_unlocked": true,
+    "hp_after_evolution": "target maximum hp"
+  },
+  "forced_enemy_evolutions": [
+    {
+      "from": 120,
+      "to": 121,
+      "from_digimon": {
+        "id": 120,
+        "name": "duskmon",
+        "number": 442
+      },
+      "to_digimon": {
+        "id": 121,
+        "name": "velgrmon",
+        "number": 443
+      }
+    },
+    {
+      "from": 128,
+      "to": 129,
+      "from_digimon": {
+        "id": 128,
+        "name": "kerpymon",
+        "number": 467
+      },
+      "to_digimon": {
+        "id": 129,
+        "name": "kerpymon_black",
+        "number": 468
+      }
+    }
+  ],
+  "spirit_rules": {
+    "form_party_requirements": {
+      "100": 0,
+      "101": 0,
+      "102": 1,
+      "103": 1,
+      "104": 2,
+      "105": 2,
+      "106": 3,
+      "107": 3,
+      "108": 4,
+      "109": 4,
+      "110": 5,
+      "111": 5
+    },
+    "ancient_forms": [
+      {
+        "digimon": {
+          "id": 122,
+          "name": "ancientgreymon",
+          "number": 467
+        },
+        "required_character_party_index": 0,
+        "required_spirit_slots": [
+          0,
+          1
+        ]
+      },
+      {
+        "digimon": {
+          "id": 123,
+          "name": "ancientgarurumon",
+          "number": 468
+        },
+        "required_character_party_index": 1,
+        "required_spirit_slots": [
+          2,
+          3
+        ]
+      },
+      {
+        "digimon": {
+          "id": 124,
+          "name": "ancientbeetlemon",
+          "number": 469
+        },
+        "required_character_party_index": 2,
+        "required_spirit_slots": [
+          4,
+          5
+        ]
+      },
+      {
+        "digimon": {
+          "id": 125,
+          "name": "ancientkazemon",
+          "number": 470
+        },
+        "required_character_party_index": 3,
+        "required_spirit_slots": [
+          6,
+          7
+        ]
+      },
+      {
+        "digimon": {
+          "id": 126,
+          "name": "ancientmegatheriumon",
+          "number": 471
+        },
+        "required_character_party_index": 4,
+        "required_spirit_slots": [
+          8,
+          9
+        ]
+      },
+      {
+        "digimon": {
+          "id": 127,
+          "name": "ancientsphinxmon",
+          "number": 476
+        },
+        "required_character_party_index": 10,
+        "required_spirit_slots": [
+          10,
+          11
+        ]
+      }
+    ]
+  }
+}

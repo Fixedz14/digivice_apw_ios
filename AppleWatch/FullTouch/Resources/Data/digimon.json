@@ -1,0 +1,3771 @@
+{
+  "schema_version": 1,
+  "count": 141,
+  "type_counts": {
+    "ancient": 6,
+    "boss": 10,
+    "champion": 26,
+    "final_boss": 13,
+    "mega": 33,
+    "rookie": 17,
+    "spirit": 12,
+    "ultimate": 24
+  },
+  "digimon": [
+    {
+      "id": 0,
+      "sprite": "spr_agumon_dtector",
+      "number": 8,
+      "name": "agumon",
+      "level": 4,
+      "hp": 40,
+      "element": 0,
+      "energy": 25,
+      "crunch": 15,
+      "ability": 20,
+      "code": "VSJK1",
+      "type": "rookie",
+      "evolution": 17,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_agumon_dtector_0.png",
+        "spr_agumon_dtector_1.png",
+        "spr_agumon_dtector_2.png",
+        "spr_agumon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 1,
+      "sprite": "spr_gabumon_dtector",
+      "number": 9,
+      "name": "gabumon",
+      "level": 4,
+      "hp": 40,
+      "element": 4,
+      "energy": 20,
+      "crunch": 25,
+      "ability": 15,
+      "code": "20LJY",
+      "type": "rookie",
+      "evolution": 18,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_gabumon_dtector_0.png",
+        "spr_gabumon_dtector_1.png",
+        "spr_gabumon_dtector_2.png",
+        "spr_gabumon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 2,
+      "sprite": "spr_veemon_dtector",
+      "number": 234,
+      "name": "veemon",
+      "level": 4,
+      "hp": 40,
+      "element": 2,
+      "energy": 10,
+      "crunch": 30,
+      "ability": 20,
+      "code": "4143F",
+      "type": "rookie",
+      "evolution": 19,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_veemon_dtector_0.png",
+        "spr_veemon_dtector_1.png",
+        "spr_veemon_dtector_2.png",
+        "spr_veemon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 3,
+      "sprite": "spr_wormmon_dtector",
+      "number": 237,
+      "name": "wormmon",
+      "level": 4,
+      "hp": 40,
+      "element": 3,
+      "energy": 15,
+      "crunch": 15,
+      "ability": 30,
+      "code": "O71PD",
+      "type": "rookie",
+      "evolution": 20,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_wormmon_dtector_0.png",
+        "spr_wormmon_dtector_1.png",
+        "spr_wormmon_dtector_2.png",
+        "spr_wormmon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 4,
+      "sprite": "spr_guilmon_dtector",
+      "number": 360,
+      "name": "guilmon",
+      "level": 4,
+      "hp": 40,
+      "element": 0,
+      "energy": 30,
+      "crunch": 20,
+      "ability": 10,
+      "code": "LZ65T",
+      "type": "rookie",
+      "evolution": 21,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_guilmon_dtector_0.png",
+        "spr_guilmon_dtector_1.png",
+        "spr_guilmon_dtector_2.png",
+        "spr_guilmon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 5,
+      "sprite": "spr_terriermon_dtector",
+      "number": 338,
+      "name": "terriermon",
+      "level": 4,
+      "hp": 40,
+      "element": 1,
+      "energy": 10,
+      "crunch": 25,
+      "ability": 25,
+      "code": "N6X0X",
+      "type": "rookie",
+      "evolution": 22,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_terriermon_dtector_0.png",
+        "spr_terriermon_dtector_1.png",
+        "spr_terriermon_dtector_2.png",
+        "spr_terriermon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 6,
+      "sprite": "spr_gotsumon_dtector",
+      "number": 77,
+      "name": "gotsumon",
+      "level": 3,
+      "hp": 35,
+      "element": 6,
+      "energy": 10,
+      "crunch": 30,
+      "ability": 15,
+      "code": "412L1",
+      "type": "rookie",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_gotsumon_dtector_0.png",
+        "spr_gotsumon_dtector_1.png",
+        "spr_gotsumon_dtector_2.png",
+        "spr_gotsumon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 7,
+      "sprite": "spr_kokuwamon_dtector",
+      "number": 135,
+      "name": "kokuwamon",
+      "level": 3,
+      "hp": 30,
+      "element": 8,
+      "energy": 25,
+      "crunch": 20,
+      "ability": 10,
+      "code": "RMK2O",
+      "type": "rookie",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_kokuwamon_dtector_0.png",
+        "spr_kokuwamon_dtector_1.png",
+        "spr_kokuwamon_dtector_2.png",
+        "spr_kokuwamon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 8,
+      "sprite": "spr_kunemon_dtector",
+      "number": 119,
+      "name": "kunemon",
+      "level": 4,
+      "hp": 30,
+      "element": 5,
+      "energy": 20,
+      "crunch": 30,
+      "ability": 15,
+      "code": "0RO8X",
+      "type": "rookie",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_kunemon_dtector_0.png",
+        "spr_kunemon_dtector_1.png",
+        "spr_kunemon_dtector_2.png",
+        "spr_kunemon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 9,
+      "sprite": "spr_mushroomon_dtector",
+      "number": 103,
+      "name": "mushroomon",
+      "level": 4,
+      "hp": 30,
+      "element": 7,
+      "energy": 20,
+      "crunch": 15,
+      "ability": 30,
+      "code": "E2T3R",
+      "type": "rookie",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_mushroomon_dtector_0.png",
+        "spr_mushroomon_dtector_1.png",
+        "spr_mushroomon_dtector_2.png",
+        "spr_mushroomon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 10,
+      "sprite": "spr_gazimon_dtector",
+      "number": 81,
+      "name": "gazimon",
+      "level": 6,
+      "hp": 50,
+      "element": 9,
+      "energy": 30,
+      "crunch": 15,
+      "ability": 30,
+      "code": "P3MUD",
+      "type": "rookie",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_gazimon_dtector_0.png",
+        "spr_gazimon_dtector_1.png",
+        "spr_gazimon_dtector_2.png",
+        "spr_gazimon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 11,
+      "sprite": "spr_elecmon_dtector",
+      "number": 38,
+      "name": "elecmon",
+      "level": 5,
+      "hp": 45,
+      "element": 2,
+      "energy": 30,
+      "crunch": 25,
+      "ability": 15,
+      "code": "Y2KI6",
+      "type": "rookie",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_elecmon_dtector_0.png",
+        "spr_elecmon_dtector_1.png",
+        "spr_elecmon_dtector_2.png",
+        "spr_elecmon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 12,
+      "sprite": "spr_monodramon_dtector",
+      "number": 391,
+      "name": "monodramon",
+      "level": 4,
+      "hp": 40,
+      "element": 3,
+      "energy": 15,
+      "crunch": 30,
+      "ability": 15,
+      "code": "64SH7",
+      "type": "rookie",
+      "evolution": 35,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_monodramon_dtector_0.png",
+        "spr_monodramon_dtector_1.png",
+        "spr_monodramon_dtector_2.png",
+        "spr_monodramon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 13,
+      "sprite": "spr_patamon_dtector",
+      "number": 14,
+      "name": "patamon",
+      "level": 4,
+      "hp": 40,
+      "element": 3,
+      "energy": 30,
+      "crunch": 20,
+      "ability": 10,
+      "code": "C4RWQ",
+      "type": "rookie",
+      "evolution": 36,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_patamon_dtector_0.png",
+        "spr_patamon_dtector_1.png",
+        "spr_patamon_dtector_2.png",
+        "spr_patamon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 14,
+      "sprite": "spr_keramon_dtector",
+      "number": 206,
+      "name": "keramon",
+      "level": 4,
+      "hp": 40,
+      "element": 6,
+      "energy": 20,
+      "crunch": 10,
+      "ability": 30,
+      "code": "1VRFV",
+      "type": "rookie",
+      "evolution": 37,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_keramon_dtector_0.png",
+        "spr_keramon_dtector_1.png",
+        "spr_keramon_dtector_2.png",
+        "spr_keramon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 15,
+      "sprite": "spr_toyagumon_dtector",
+      "number": 170,
+      "name": "toyagumon",
+      "level": 3,
+      "hp": 35,
+      "element": 7,
+      "energy": 15,
+      "crunch": 25,
+      "ability": 15,
+      "code": "2BWID",
+      "type": "rookie",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_toyagumon_dtector_0.png",
+        "spr_toyagumon_dtector_1.png",
+        "spr_toyagumon_dtector_2.png",
+        "spr_toyagumon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 16,
+      "sprite": "spr_goburimon_dtector",
+      "number": 201,
+      "name": "goburimon",
+      "level": 4,
+      "hp": 45,
+      "element": 6,
+      "energy": 30,
+      "crunch": 20,
+      "ability": 15,
+      "code": "6TGUQ",
+      "type": "rookie",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_goburimon_dtector_0.png",
+        "spr_goburimon_dtector_1.png",
+        "spr_goburimon_dtector_2.png",
+        "spr_goburimon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 17,
+      "sprite": "spr_greymon_dtector",
+      "number": 16,
+      "name": "greymon",
+      "level": 19,
+      "hp": 65,
+      "element": 0,
+      "energy": 20,
+      "crunch": 40,
+      "ability": 45,
+      "code": "SPLNE",
+      "type": "champion",
+      "evolution": 43,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_greymon_dtector_0.png",
+        "spr_greymon_dtector_1.png",
+        "spr_greymon_dtector_2.png",
+        "spr_greymon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 18,
+      "sprite": "spr_garurumon_dtector",
+      "number": 18,
+      "name": "garurumon",
+      "level": 17,
+      "hp": 60,
+      "element": 4,
+      "energy": 40,
+      "crunch": 40,
+      "ability": 20,
+      "code": "XB6CB",
+      "type": "champion",
+      "evolution": 44,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_garurumon_dtector_0.png",
+        "spr_garurumon_dtector_1.png",
+        "spr_garurumon_dtector_2.png",
+        "spr_garurumon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 19,
+      "sprite": "spr_exveemon_dtector",
+      "number": 298,
+      "name": "exveemon",
+      "level": 20,
+      "hp": 55,
+      "element": 2,
+      "energy": 25,
+      "crunch": 30,
+      "ability": 50,
+      "code": "8D50N",
+      "type": "champion",
+      "evolution": 45,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_exveemon_dtector_0.png",
+        "spr_exveemon_dtector_1.png",
+        "spr_exveemon_dtector_2.png",
+        "spr_exveemon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 20,
+      "sprite": "spr_stingmon_dtector",
+      "number": 299,
+      "name": "stingmon",
+      "level": 15,
+      "hp": 50,
+      "element": 3,
+      "energy": 45,
+      "crunch": 15,
+      "ability": 35,
+      "code": "DIPX2",
+      "type": "champion",
+      "evolution": 46,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_stingmon_dtector_0.png",
+        "spr_stingmon_dtector_1.png",
+        "spr_stingmon_dtector_2.png",
+        "spr_stingmon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 21,
+      "sprite": "spr_growlmon_dtector",
+      "number": 362,
+      "name": "growlmon",
+      "level": 21,
+      "hp": 65,
+      "element": 0,
+      "energy": 35,
+      "crunch": 50,
+      "ability": 20,
+      "code": "ODW1T",
+      "type": "champion",
+      "evolution": 47,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_growlmon_dtector_0.png",
+        "spr_growlmon_dtector_1.png",
+        "spr_growlmon_dtector_2.png",
+        "spr_growlmon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 22,
+      "sprite": "spr_gargomon_dtector",
+      "number": 339,
+      "name": "gargomon",
+      "level": 18,
+      "hp": 50,
+      "element": 1,
+      "energy": 40,
+      "crunch": 30,
+      "ability": 25,
+      "code": "5HQZ2",
+      "type": "champion",
+      "evolution": 48,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_gargomon_dtector_0.png",
+        "spr_gargomon_dtector_1.png",
+        "spr_gargomon_dtector_2.png",
+        "spr_gargomon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 23,
+      "sprite": "spr_frigimon_dtector",
+      "number": 33,
+      "name": "frigimon",
+      "level": 20,
+      "hp": 60,
+      "element": 4,
+      "energy": 15,
+      "crunch": 35,
+      "ability": 50,
+      "code": "8FEUJ",
+      "type": "champion",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_frigimon_dtector_0.png",
+        "spr_frigimon_dtector_1.png",
+        "spr_frigimon_dtector_2.png",
+        "spr_frigimon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 24,
+      "sprite": "spr_ogremon_dtector",
+      "number": 31,
+      "name": "ogremon",
+      "level": 15,
+      "hp": 45,
+      "element": 3,
+      "energy": 20,
+      "crunch": 35,
+      "ability": 30,
+      "code": "KJKD7",
+      "type": "champion",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_ogremon_dtector_0.png",
+        "spr_ogremon_dtector_1.png",
+        "spr_ogremon_dtector_2.png",
+        "spr_ogremon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 25,
+      "sprite": "spr_leomon_dtector",
+      "number": 30,
+      "name": "leomon",
+      "level": 14,
+      "hp": 45,
+      "element": 1,
+      "energy": 40,
+      "crunch": 40,
+      "ability": 20,
+      "code": "HCKP4",
+      "type": "champion",
+      "evolution": 60,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_leomon_dtector_0.png",
+        "spr_leomon_dtector_1.png",
+        "spr_leomon_dtector_2.png",
+        "spr_leomon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 26,
+      "sprite": "spr_shellmon_dtector",
+      "number": 17,
+      "name": "shellmon",
+      "level": 12,
+      "hp": 70,
+      "element": 9,
+      "energy": 15,
+      "crunch": 20,
+      "ability": 35,
+      "code": "PU3E3",
+      "type": "champion",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_shellmon_dtector_0.png",
+        "spr_shellmon_dtector_1.png",
+        "spr_shellmon_dtector_2.png",
+        "spr_shellmon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 27,
+      "sprite": "spr_kuwagamon_dtector",
+      "number": 15,
+      "name": "kuwagamon",
+      "level": 26,
+      "hp": 60,
+      "element": 5,
+      "energy": 30,
+      "crunch": 30,
+      "ability": 45,
+      "code": "AHRZ7",
+      "type": "champion",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_kuwagamon_dtector_0.png",
+        "spr_kuwagamon_dtector_1.png",
+        "spr_kuwagamon_dtector_2.png",
+        "spr_kuwagamon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 28,
+      "sprite": "spr_gesomon_dtector",
+      "number": 72,
+      "name": "gesomon",
+      "level": 13,
+      "hp": 35,
+      "element": 9,
+      "energy": 20,
+      "crunch": 35,
+      "ability": 30,
+      "code": "5COSA",
+      "type": "champion",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_gesomon_dtector_0.png",
+        "spr_gesomon_dtector_1.png",
+        "spr_gesomon_dtector_2.png",
+        "spr_gesomon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 29,
+      "sprite": "spr_deputymon_dtector",
+      "number": 137,
+      "name": "deputymon",
+      "level": 8,
+      "hp": 45,
+      "element": 8,
+      "energy": 40,
+      "crunch": 10,
+      "ability": 15,
+      "code": "8PBH0",
+      "type": "champion",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_deputymon_dtector_0.png",
+        "spr_deputymon_dtector_1.png",
+        "spr_deputymon_dtector_2.png",
+        "spr_deputymon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 30,
+      "sprite": "spr_nanimon_dtector",
+      "number": 68,
+      "name": "nanimon",
+      "level": 21,
+      "hp": 50,
+      "element": 6,
+      "energy": 30,
+      "crunch": 45,
+      "ability": 20,
+      "code": "ZBBWZ",
+      "type": "champion",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_nanimon_dtector_0.png",
+        "spr_nanimon_dtector_1.png",
+        "spr_nanimon_dtector_2.png",
+        "spr_nanimon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 31,
+      "sprite": "spr_vegiemon_dtector",
+      "number": 58,
+      "name": "vegiemon",
+      "level": 10,
+      "hp": 45,
+      "element": 7,
+      "energy": 30,
+      "crunch": 25,
+      "ability": 25,
+      "code": "G1SEF",
+      "type": "champion",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_vegiemon_dtector_0.png",
+        "spr_vegiemon_dtector_1.png",
+        "spr_vegiemon_dtector_2.png",
+        "spr_vegiemon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 32,
+      "sprite": "spr_numemon_dtector",
+      "number": 26,
+      "name": "numemon",
+      "level": 9,
+      "hp": 40,
+      "element": 5,
+      "energy": 20,
+      "crunch": 25,
+      "ability": 35,
+      "code": "WH5A4",
+      "type": "champion",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_numemon_dtector_0.png",
+        "spr_numemon_dtector_1.png",
+        "spr_numemon_dtector_2.png",
+        "spr_numemon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 33,
+      "sprite": "spr_thundermon_dtector",
+      "number": 202,
+      "name": "thundermon",
+      "level": 22,
+      "hp": 50,
+      "element": 2,
+      "energy": 20,
+      "crunch": 40,
+      "ability": 35,
+      "code": "SLNO8",
+      "type": "champion",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_thundermon_dtector_0.png",
+        "spr_thundermon_dtector_1.png",
+        "spr_thundermon_dtector_2.png",
+        "spr_thundermon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 34,
+      "sprite": "spr_starmon_dtector",
+      "number": 124,
+      "name": "starmon",
+      "level": 27,
+      "hp": 55,
+      "element": 8,
+      "energy": 55,
+      "crunch": 25,
+      "ability": 30,
+      "code": "VPPQ1",
+      "type": "champion",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_starmon_dtector_0.png",
+        "spr_starmon_dtector_1.png",
+        "spr_starmon_dtector_2.png",
+        "spr_starmon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 35,
+      "sprite": "spr_strikedramon_dtector",
+      "number": 427,
+      "name": "strikedramon",
+      "level": 18,
+      "hp": 60,
+      "element": 3,
+      "energy": 50,
+      "crunch": 30,
+      "ability": 25,
+      "code": "8X8WO",
+      "type": "champion",
+      "evolution": 56,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_strikedramon_dtector_0.png",
+        "spr_strikedramon_dtector_1.png",
+        "spr_strikedramon_dtector_2.png",
+        "spr_strikedramon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 36,
+      "sprite": "spr_angemon_dtector",
+      "number": 43,
+      "name": "angemon",
+      "level": 20,
+      "hp": 55,
+      "element": 3,
+      "energy": 30,
+      "crunch": 20,
+      "ability": 50,
+      "code": "CT5XP",
+      "type": "champion",
+      "evolution": 58,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_angemon_dtector_0.png",
+        "spr_angemon_dtector_1.png",
+        "spr_angemon_dtector_2.png",
+        "spr_angemon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 37,
+      "sprite": "spr_chrysalimon_dtector",
+      "number": 225,
+      "name": "chrysalimon",
+      "level": 19,
+      "hp": 50,
+      "element": 6,
+      "energy": 35,
+      "crunch": 20,
+      "ability": 50,
+      "code": "FPCL6",
+      "type": "champion",
+      "evolution": 59,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_chrysalimon_dtector_0.png",
+        "spr_chrysalimon_dtector_1.png",
+        "spr_chrysalimon_dtector_2.png",
+        "spr_chrysalimon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 38,
+      "sprite": "spr_rockmon_dtector",
+      "number": 122,
+      "name": "rockmon",
+      "level": 17,
+      "hp": 60,
+      "element": 8,
+      "energy": 25,
+      "crunch": 40,
+      "ability": 15,
+      "code": "4CCYX",
+      "type": "champion",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_rockmon_dtector_0.png",
+        "spr_rockmon_dtector_1.png",
+        "spr_rockmon_dtector_2.png",
+        "spr_rockmon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 39,
+      "sprite": "spr_wizarmon_dtector",
+      "number": 75,
+      "name": "wizarmon",
+      "level": 15,
+      "hp": 45,
+      "element": 2,
+      "energy": 45,
+      "crunch": 20,
+      "ability": 15,
+      "code": "XRXC4",
+      "type": "champion",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_wizarmon_dtector_0.png",
+        "spr_wizarmon_dtector_1.png",
+        "spr_wizarmon_dtector_2.png",
+        "spr_wizarmon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 40,
+      "sprite": "spr_snimon_dtector",
+      "number": 86,
+      "name": "snimon",
+      "level": 16,
+      "hp": 40,
+      "element": 9,
+      "energy": 15,
+      "crunch": 20,
+      "ability": 65,
+      "code": "4UEK3",
+      "type": "champion",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_snimon_dtector_0.png",
+        "spr_snimon_dtector_1.png",
+        "spr_snimon_dtector_2.png",
+        "spr_snimon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 41,
+      "sprite": "spr_tankmon_dtector",
+      "number": 113,
+      "name": "tankmon",
+      "level": 14,
+      "hp": 65,
+      "element": 4,
+      "energy": 40,
+      "crunch": 25,
+      "ability": 15,
+      "code": "ZECOZ",
+      "type": "champion",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_tankmon_dtector_0.png",
+        "spr_tankmon_dtector_1.png",
+        "spr_tankmon_dtector_2.png",
+        "spr_tankmon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 42,
+      "sprite": "spr_guardromon_dtector",
+      "number": 173,
+      "name": "guardromon",
+      "level": 18,
+      "hp": 70,
+      "element": 8,
+      "energy": 20,
+      "crunch": 50,
+      "ability": 10,
+      "code": "ZYUDZ",
+      "type": "champion",
+      "evolution": 66,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_guardromon_dtector_0.png",
+        "spr_guardromon_dtector_1.png",
+        "spr_guardromon_dtector_2.png",
+        "spr_guardromon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 43,
+      "sprite": "spr_metalgreymon_dtector",
+      "number": 54,
+      "name": "metalgreymon",
+      "level": 35,
+      "hp": 95,
+      "element": 0,
+      "energy": 40,
+      "crunch": 50,
+      "ability": 60,
+      "code": "04JWG",
+      "type": "ultimate",
+      "evolution": 67,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_metalgreymon_dtector_0.png",
+        "spr_metalgreymon_dtector_1.png",
+        "spr_metalgreymon_dtector_2.png",
+        "spr_metalgreymon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 44,
+      "sprite": "spr_weregarurumon_dtector",
+      "number": 56,
+      "name": "weregarurumon",
+      "level": 34,
+      "hp": 95,
+      "element": 4,
+      "energy": 55,
+      "crunch": 45,
+      "ability": 45,
+      "code": "AMUFE",
+      "type": "ultimate",
+      "evolution": 68,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_weregarurumon_dtector_0.png",
+        "spr_weregarurumon_dtector_1.png",
+        "spr_weregarurumon_dtector_2.png",
+        "spr_weregarurumon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 45,
+      "sprite": "spr_paildramon_dtector",
+      "number": 302,
+      "name": "paildramon",
+      "level": 38,
+      "hp": 85,
+      "element": 2,
+      "energy": 55,
+      "crunch": 60,
+      "ability": 45,
+      "code": "T601A",
+      "type": "ultimate",
+      "evolution": 69,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_paildramon_dtector_0.png",
+        "spr_paildramon_dtector_1.png",
+        "spr_paildramon_dtector_2.png",
+        "spr_paildramon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 46,
+      "sprite": "spr_dinobeemon_dtector",
+      "number": 303,
+      "name": "dinobeemon",
+      "level": 30,
+      "hp": 80,
+      "element": 3,
+      "energy": 60,
+      "crunch": 30,
+      "ability": 30,
+      "code": "KWSRZ",
+      "type": "ultimate",
+      "evolution": 70,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_dinobeemon_dtector_0.png",
+        "spr_dinobeemon_dtector_1.png",
+        "spr_dinobeemon_dtector_2.png",
+        "spr_dinobeemon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 47,
+      "sprite": "spr_wargrowlmon_dtector",
+      "number": 364,
+      "name": "wargrowlmon",
+      "level": 40,
+      "hp": 100,
+      "element": 0,
+      "energy": 50,
+      "crunch": 60,
+      "ability": 55,
+      "code": "RM4VI",
+      "type": "ultimate",
+      "evolution": 71,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_wargrowlmon_dtector_0.png",
+        "spr_wargrowlmon_dtector_1.png",
+        "spr_wargrowlmon_dtector_2.png",
+        "spr_wargrowlmon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 48,
+      "sprite": "spr_rapidmon_dtector",
+      "number": 340,
+      "name": "rapidmon",
+      "level": 32,
+      "hp": 90,
+      "element": 1,
+      "energy": 55,
+      "crunch": 30,
+      "ability": 50,
+      "code": "JQEZW",
+      "type": "ultimate",
+      "evolution": 72,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_rapidmon_dtector_0.png",
+        "spr_rapidmon_dtector_1.png",
+        "spr_rapidmon_dtector_2.png",
+        "spr_rapidmon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 49,
+      "sprite": "spr_etemon_dtector",
+      "number": 46,
+      "name": "etemon",
+      "level": 30,
+      "hp": 85,
+      "element": 7,
+      "energy": 30,
+      "crunch": 45,
+      "ability": 35,
+      "code": "ONVUQ",
+      "type": "ultimate",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_etemon_dtector_0.png",
+        "spr_etemon_dtector_1.png",
+        "spr_etemon_dtector_2.png",
+        "spr_etemon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 50,
+      "sprite": "spr_skullgreymon_dtector",
+      "number": 49,
+      "name": "skullgreymon",
+      "level": 41,
+      "hp": 110,
+      "element": 5,
+      "energy": 60,
+      "crunch": 45,
+      "ability": 55,
+      "code": "WH0KF",
+      "type": "ultimate",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_skullgreymon_dtector_0.png",
+        "spr_skullgreymon_dtector_1.png",
+        "spr_skullgreymon_dtector_2.png",
+        "spr_skullgreymon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 51,
+      "sprite": "spr_marinedevimon_dtector",
+      "number": 131,
+      "name": "marinedevimon",
+      "level": 32,
+      "hp": 75,
+      "element": 9,
+      "energy": 45,
+      "crunch": 30,
+      "ability": 50,
+      "code": "0VN87",
+      "type": "ultimate",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_marinedevimon_dtector_0.png",
+        "spr_marinedevimon_dtector_1.png",
+        "spr_marinedevimon_dtector_2.png",
+        "spr_marinedevimon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 52,
+      "sprite": "spr_orochimon_dtector",
+      "number": 383,
+      "name": "orochimon",
+      "level": 27,
+      "hp": 85,
+      "element": 6,
+      "energy": 35,
+      "crunch": 50,
+      "ability": 30,
+      "code": "DYL0C",
+      "type": "ultimate",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_orochimon_dtector_0.png",
+        "spr_orochimon_dtector_1.png",
+        "spr_orochimon_dtector_2.png",
+        "spr_orochimon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 53,
+      "sprite": "spr_kimeramon_dtector",
+      "number": 121,
+      "name": "kimeramon",
+      "level": 29,
+      "hp": 75,
+      "element": 8,
+      "energy": 40,
+      "crunch": 35,
+      "ability": 45,
+      "code": "OKRAB",
+      "type": "ultimate",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_kimeramon_dtector_0.png",
+        "spr_kimeramon_dtector_1.png",
+        "spr_kimeramon_dtector_2.png",
+        "spr_kimeramon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 54,
+      "sprite": "spr_mummymon_dtector",
+      "number": 325,
+      "name": "mummymon",
+      "level": 27,
+      "hp": 70,
+      "element": 6,
+      "energy": 50,
+      "crunch": 30,
+      "ability": 35,
+      "code": "ZAHWP",
+      "type": "ultimate",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_mummymon_dtector_0.png",
+        "spr_mummymon_dtector_1.png",
+        "spr_mummymon_dtector_2.png",
+        "spr_mummymon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 55,
+      "sprite": "spr_arukerimon_dtector",
+      "number": 324,
+      "name": "arukerimon",
+      "level": 33,
+      "hp": 80,
+      "element": 7,
+      "energy": 40,
+      "crunch": 40,
+      "ability": 45,
+      "code": "PKDLG",
+      "type": "ultimate",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_arukerimon_dtector_0.png",
+        "spr_arukerimon_dtector_1.png",
+        "spr_arukerimon_dtector_2.png",
+        "spr_arukerimon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 56,
+      "sprite": "spr_cyberdramon_dtector",
+      "number": 222,
+      "name": "cyberdramon",
+      "level": 42,
+      "hp": 120,
+      "element": 3,
+      "energy": 55,
+      "crunch": 65,
+      "ability": 45,
+      "code": "NQNX4",
+      "type": "ultimate",
+      "evolution": 74,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_cyberdramon_dtector_0.png",
+        "spr_cyberdramon_dtector_1.png",
+        "spr_cyberdramon_dtector_2.png",
+        "spr_cyberdramon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 57,
+      "sprite": "spr_mephistomon_dtector",
+      "number": 387,
+      "name": "mephistomon",
+      "level": 44,
+      "hp": 140,
+      "element": 5,
+      "energy": 55,
+      "crunch": 50,
+      "ability": 65,
+      "code": "VI0GQ",
+      "type": "ultimate",
+      "evolution": 79,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_mephistomon_dtector_0.png",
+        "spr_mephistomon_dtector_1.png",
+        "spr_mephistomon_dtector_2.png",
+        "spr_mephistomon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 58,
+      "sprite": "spr_magnaangemon_dtector",
+      "number": 88,
+      "name": "magnaangemon",
+      "level": 40,
+      "hp": 95,
+      "element": 3,
+      "energy": 55,
+      "crunch": 45,
+      "ability": 60,
+      "code": "POQ0G",
+      "type": "ultimate",
+      "evolution": 80,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_magnaangemon_dtector_0.png",
+        "spr_magnaangemon_dtector_1.png",
+        "spr_magnaangemon_dtector_2.png",
+        "spr_magnaangemon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 59,
+      "sprite": "spr_infermon_dtector",
+      "number": 329,
+      "name": "infermon",
+      "level": 37,
+      "hp": 90,
+      "element": 6,
+      "energy": 50,
+      "crunch": 45,
+      "ability": 55,
+      "code": "UZSKK",
+      "type": "ultimate",
+      "evolution": 82,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_infermon_dtector_0.png",
+        "spr_infermon_dtector_1.png",
+        "spr_infermon_dtector_2.png",
+        "spr_infermon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 60,
+      "sprite": "spr_grapleomon_dtector",
+      "number": 424,
+      "name": "grapleomon",
+      "level": 33,
+      "hp": 110,
+      "element": 1,
+      "energy": 35,
+      "crunch": 55,
+      "ability": 40,
+      "code": "IA38H",
+      "type": "ultimate",
+      "evolution": 83,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_grapleomon_dtector_0.png",
+        "spr_grapleomon_dtector_1.png",
+        "spr_grapleomon_dtector_2.png",
+        "spr_grapleomon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 61,
+      "sprite": "spr_myotismon_dtector",
+      "number": 59,
+      "name": "myotismon",
+      "level": 32,
+      "hp": 100,
+      "element": 4,
+      "energy": 60,
+      "crunch": 40,
+      "ability": 35,
+      "code": "KVYY6",
+      "type": "ultimate",
+      "evolution": 84,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_myotismon_dtector_0.png",
+        "spr_myotismon_dtector_1.png",
+        "spr_myotismon_dtector_2.png",
+        "spr_myotismon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 62,
+      "sprite": "spr_cerberusmon_dtector",
+      "number": 413,
+      "name": "cerberusmon",
+      "level": 30,
+      "hp": 85,
+      "element": 0,
+      "energy": 50,
+      "crunch": 35,
+      "ability": 35,
+      "code": "DQO7X",
+      "type": "ultimate",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_cerberusmon_dtector_0.png",
+        "spr_cerberusmon_dtector_1.png",
+        "spr_cerberusmon_dtector_2.png",
+        "spr_cerberusmon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 63,
+      "sprite": "spr_karatenmon_dtector",
+      "number": 389,
+      "name": "karatenmon",
+      "level": 27,
+      "hp": 80,
+      "element": 7,
+      "energy": 30,
+      "crunch": 30,
+      "ability": 50,
+      "code": "ROFR4",
+      "type": "ultimate",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_karatenmon_dtector_0.png",
+        "spr_karatenmon_dtector_1.png",
+        "spr_karatenmon_dtector_2.png",
+        "spr_karatenmon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 64,
+      "sprite": "spr_volcamon_dtector",
+      "number": 415,
+      "name": "volcamon",
+      "level": 30,
+      "hp": 120,
+      "element": 0,
+      "energy": 35,
+      "crunch": 55,
+      "ability": 45,
+      "code": "QRW3G",
+      "type": "ultimate",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_volcamon_dtector_0.png",
+        "spr_volcamon_dtector_1.png",
+        "spr_volcamon_dtector_2.png",
+        "spr_volcamon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 65,
+      "sprite": "spr_skullscopiomon_dtector",
+      "number": 416,
+      "name": "skullscopiomon",
+      "level": 27,
+      "hp": 90,
+      "element": 6,
+      "energy": 45,
+      "crunch": 30,
+      "ability": 35,
+      "code": "CZLUR",
+      "type": "ultimate",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_skullscopiomon_dtector_0.png",
+        "spr_skullscopiomon_dtector_1.png",
+        "spr_skullscopiomon_dtector_2.png",
+        "spr_skullscopiomon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 66,
+      "sprite": "spr_andromon_dtector",
+      "number": 24,
+      "name": "andromon",
+      "level": 29,
+      "hp": 95,
+      "element": 8,
+      "energy": 40,
+      "crunch": 50,
+      "ability": 40,
+      "code": "FL80V",
+      "type": "ultimate",
+      "evolution": 87,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_andromon_dtector_0.png",
+        "spr_andromon_dtector_1.png",
+        "spr_andromon_dtector_2.png",
+        "spr_andromon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 67,
+      "sprite": "spr_wargreymon_dtector",
+      "number": 90,
+      "name": "wargreymon",
+      "level": 55,
+      "hp": 160,
+      "element": 0,
+      "energy": 70,
+      "crunch": 75,
+      "ability": 80,
+      "code": "GY3ST",
+      "type": "mega",
+      "evolution": 88,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_wargreymon_dtector_0.png",
+        "spr_wargreymon_dtector_1.png",
+        "spr_wargreymon_dtector_2.png",
+        "spr_wargreymon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 68,
+      "sprite": "spr_metalgarurumon_dtector",
+      "number": 91,
+      "name": "metalgarurumon",
+      "level": 53,
+      "hp": 150,
+      "element": 4,
+      "energy": 80,
+      "crunch": 80,
+      "ability": 60,
+      "code": "APAT4",
+      "type": "mega",
+      "evolution": 88,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_metalgarurumon_dtector_0.png",
+        "spr_metalgarurumon_dtector_1.png",
+        "spr_metalgarurumon_dtector_2.png",
+        "spr_metalgarurumon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 69,
+      "sprite": "spr_imperialdramon_dtector",
+      "number": 306,
+      "name": "imperialdramon",
+      "level": 57,
+      "hp": 170,
+      "element": 2,
+      "energy": 80,
+      "crunch": 65,
+      "ability": 85,
+      "code": "13LZQ",
+      "type": "mega",
+      "evolution": 89,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_imperialdramon_dtector_0.png",
+        "spr_imperialdramon_dtector_1.png",
+        "spr_imperialdramon_dtector_2.png",
+        "spr_imperialdramon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 70,
+      "sprite": "spr_grandkuwagamon_dtector",
+      "number": 307,
+      "name": "grandkuwagamon",
+      "level": 50,
+      "hp": 170,
+      "element": 3,
+      "energy": 60,
+      "crunch": 85,
+      "ability": 65,
+      "code": "8RZMH",
+      "type": "mega",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_grandkuwagamon_dtector_0.png",
+        "spr_grandkuwagamon_dtector_1.png",
+        "spr_grandkuwagamon_dtector_2.png",
+        "spr_grandkuwagamon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 71,
+      "sprite": "spr_gallantmon_dtector",
+      "number": 366,
+      "name": "gallantmon",
+      "level": 59,
+      "hp": 150,
+      "element": 0,
+      "energy": 90,
+      "crunch": 65,
+      "ability": 75,
+      "code": "IAOTG",
+      "type": "mega",
+      "evolution": 90,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_gallantmon_dtector_0.png",
+        "spr_gallantmon_dtector_1.png",
+        "spr_gallantmon_dtector_2.png",
+        "spr_gallantmon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 72,
+      "sprite": "spr_megagargomon_dtector",
+      "number": 367,
+      "name": "megagargomon",
+      "level": 54,
+      "hp": 160,
+      "element": 1,
+      "energy": 70,
+      "crunch": 90,
+      "ability": 60,
+      "code": "85MPP",
+      "type": "mega",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_megagargomon_dtector_0.png",
+        "spr_megagargomon_dtector_1.png",
+        "spr_megagargomon_dtector_2.png",
+        "spr_megagargomon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 73,
+      "sprite": "spr_blackwargreymon_dtector",
+      "number": 311,
+      "name": "blackwargreymon",
+      "level": 55,
+      "hp": 165,
+      "element": 2,
+      "energy": 80,
+      "crunch": 85,
+      "ability": 50,
+      "code": "JZPM4",
+      "type": "mega",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_blackwargreymon_dtector_0.png",
+        "spr_blackwargreymon_dtector_1.png",
+        "spr_blackwargreymon_dtector_2.png",
+        "spr_blackwargreymon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 74,
+      "sprite": "spr_justimon_dtector",
+      "number": 384,
+      "name": "justimon",
+      "level": 58,
+      "hp": 150,
+      "element": 3,
+      "energy": 80,
+      "crunch": 70,
+      "ability": 75,
+      "code": "M5T8R",
+      "type": "mega",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_justimon_dtector_0.png",
+        "spr_justimon_dtector_1.png",
+        "spr_justimon_dtector_2.png",
+        "spr_justimon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 75,
+      "sprite": "spr_machindramon_dtector",
+      "number": 97,
+      "name": "machindramon",
+      "level": 62,
+      "hp": 180,
+      "element": 8,
+      "energy": 75,
+      "crunch": 90,
+      "ability": 65,
+      "code": "DXOA7",
+      "type": "mega",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_machindramon_dtector_0.png",
+        "spr_machindramon_dtector_1.png",
+        "spr_machindramon_dtector_2.png",
+        "spr_machindramon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 76,
+      "sprite": "spr_phoenixmon_dtector",
+      "number": 168,
+      "name": "phoenixmon",
+      "level": 50,
+      "hp": 180,
+      "element": 1,
+      "energy": 55,
+      "crunch": 75,
+      "ability": 85,
+      "code": "66CJ8",
+      "type": "mega",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_phoenixmon_dtector_0.png",
+        "spr_phoenixmon_dtector_1.png",
+        "spr_phoenixmon_dtector_2.png",
+        "spr_phoenixmon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 77,
+      "sprite": "spr_goldramon_dtector",
+      "number": 210,
+      "name": "goldramon",
+      "level": 64,
+      "hp": 200,
+      "element": 7,
+      "energy": 80,
+      "crunch": 80,
+      "ability": 80,
+      "code": "YF3IR",
+      "type": "mega",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_goldramon_dtector_0.png",
+        "spr_goldramon_dtector_1.png",
+        "spr_goldramon_dtector_2.png",
+        "spr_goldramon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 78,
+      "sprite": "spr_marineangemon_dtector",
+      "number": 153,
+      "name": "marineangemon",
+      "level": 48,
+      "hp": 140,
+      "element": 9,
+      "energy": 70,
+      "crunch": 50,
+      "ability": 85,
+      "code": "MKGMV",
+      "type": "mega",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_marineangemon_dtector_0.png",
+        "spr_marineangemon_dtector_1.png",
+        "spr_marineangemon_dtector_2.png",
+        "spr_marineangemon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 79,
+      "sprite": "spr_gulfmon_dtector",
+      "number": 388,
+      "name": "gulfmon",
+      "level": 60,
+      "hp": 220,
+      "element": 5,
+      "energy": 90,
+      "crunch": 70,
+      "ability": 75,
+      "code": "RR7PP",
+      "type": "mega",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_gulfmon_dtector_0.png",
+        "spr_gulfmon_dtector_1.png",
+        "spr_gulfmon_dtector_2.png",
+        "spr_gulfmon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 80,
+      "sprite": "spr_seraphimon_dtector",
+      "number": 310,
+      "name": "seraphimon",
+      "level": 65,
+      "hp": 180,
+      "element": 3,
+      "energy": 75,
+      "crunch": 90,
+      "ability": 80,
+      "code": "1QM5W",
+      "type": "mega",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_seraphimon_dtector_0.png",
+        "spr_seraphimon_dtector_1.png",
+        "spr_seraphimon_dtector_2.png",
+        "spr_seraphimon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 81,
+      "sprite": "spr_ophanymon_dtector",
+      "number": 393,
+      "name": "ophanymon",
+      "level": 63,
+      "hp": 180,
+      "element": 4,
+      "energy": 70,
+      "crunch": 75,
+      "ability": 95,
+      "code": "FJ3ON",
+      "type": "mega",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_ophanymon_dtector_0.png",
+        "spr_ophanymon_dtector_1.png",
+        "spr_ophanymon_dtector_2.png",
+        "spr_ophanymon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 82,
+      "sprite": "spr_diaboromon_dtector",
+      "number": 330,
+      "name": "diaboromon",
+      "level": 64,
+      "hp": 170,
+      "element": 6,
+      "energy": 95,
+      "crunch": 65,
+      "ability": 75,
+      "code": "X2M0S",
+      "type": "mega",
+      "evolution": 92,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_diaboromon_dtector_0.png",
+        "spr_diaboromon_dtector_1.png",
+        "spr_diaboromon_dtector_2.png",
+        "spr_diaboromon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 83,
+      "sprite": "spr_saberleomon_dtector",
+      "number": 110,
+      "name": "saberleomon",
+      "level": 50,
+      "hp": 160,
+      "element": 1,
+      "energy": 60,
+      "crunch": 90,
+      "ability": 65,
+      "code": "FBQYQ",
+      "type": "mega",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_saberleomon_dtector_0.png",
+        "spr_saberleomon_dtector_1.png",
+        "spr_saberleomon_dtector_2.png",
+        "spr_saberleomon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 84,
+      "sprite": "spr_venommiotismon_dtector",
+      "number": 89,
+      "name": "venommiotismon",
+      "level": 60,
+      "hp": 160,
+      "element": 4,
+      "energy": 85,
+      "crunch": 75,
+      "ability": 60,
+      "code": "JVEHX",
+      "type": "mega",
+      "evolution": 94,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_venommiotismon_dtector_0.png",
+        "spr_venommiotismon_dtector_1.png",
+        "spr_venommiotismon_dtector_2.png",
+        "spr_venommiotismon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 85,
+      "sprite": "spr_milleniumon_dtector",
+      "number": 224,
+      "name": "milleniumon",
+      "level": 58,
+      "hp": 190,
+      "element": 8,
+      "energy": 65,
+      "crunch": 65,
+      "ability": 90,
+      "code": "S6FOM",
+      "type": "mega",
+      "evolution": 93,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_milleniumon_dtector_0.png",
+        "spr_milleniumon_dtector_1.png",
+        "spr_milleniumon_dtector_2.png",
+        "spr_milleniumon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 86,
+      "sprite": "spr_kingetemon_dtector",
+      "number": 227,
+      "name": "kingetemon",
+      "level": 68,
+      "hp": 180,
+      "element": 7,
+      "energy": 80,
+      "crunch": 65,
+      "ability": 100,
+      "code": "BVLP6",
+      "type": "mega",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_kingetemon_dtector_0.png",
+        "spr_kingetemon_dtector_1.png",
+        "spr_kingetemon_dtector_2.png",
+        "spr_kingetemon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 87,
+      "sprite": "spr_hiandromon_dtector",
+      "number": 317,
+      "name": "hiandromon",
+      "level": 50,
+      "hp": 140,
+      "element": 8,
+      "energy": 75,
+      "crunch": 70,
+      "ability": 65,
+      "code": "RHUAV",
+      "type": "mega",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_hiandromon_dtector_0.png",
+        "spr_hiandromon_dtector_1.png",
+        "spr_hiandromon_dtector_2.png",
+        "spr_hiandromon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 88,
+      "sprite": "spr_omegamon_dtector",
+      "number": 331,
+      "name": "omegamon",
+      "level": 75,
+      "hp": 200,
+      "element": 1,
+      "energy": 110,
+      "crunch": 100,
+      "ability": 70,
+      "code": "YGELU",
+      "type": "mega",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_omegamon_dtector_0.png",
+        "spr_omegamon_dtector_1.png",
+        "spr_omegamon_dtector_2.png",
+        "spr_omegamon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 89,
+      "sprite": "spr_imperialdramon_fm_dtector",
+      "number": 306,
+      "name": "imperialdramon_fm",
+      "level": 75,
+      "hp": 210,
+      "element": 2,
+      "energy": 70,
+      "crunch": 120,
+      "ability": 90,
+      "code": "NVW6L",
+      "type": "mega",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_imperialdramon_fm_dtector_0.png",
+        "spr_imperialdramon_fm_dtector_1.png",
+        "spr_imperialdramon_fm_dtector_2.png",
+        "spr_imperialdramon_fm_dtector_3.png"
+      ]
+    },
+    {
+      "id": 90,
+      "sprite": "spr_gallantmon_cm_dtector",
+      "number": 366,
+      "name": "gallantmon_cm",
+      "level": 75,
+      "hp": 200,
+      "element": 3,
+      "energy": 130,
+      "crunch": 70,
+      "ability": 80,
+      "code": "UUZRG",
+      "type": "mega",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_gallantmon_cm_dtector_0.png",
+        "spr_gallantmon_cm_dtector_1.png",
+        "spr_gallantmon_cm_dtector_2.png",
+        "spr_gallantmon_cm_dtector_3.png"
+      ]
+    },
+    {
+      "id": 91,
+      "sprite": "spr_belzemon_bm_dtector",
+      "number": 370,
+      "name": "belzemon_bm",
+      "level": 75,
+      "hp": 190,
+      "element": 5,
+      "energy": 90,
+      "crunch": 70,
+      "ability": 120,
+      "code": "FV5V7",
+      "type": "mega",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_belzemon_bm_dtector_0.png",
+        "spr_belzemon_bm_dtector_1.png",
+        "spr_belzemon_bm_dtector_2.png",
+        "spr_belzemon_bm_dtector_3.png"
+      ]
+    },
+    {
+      "id": 92,
+      "sprite": "spr_armagedomon_dtector",
+      "number": 354,
+      "name": "armagedomon",
+      "level": 79,
+      "hp": 200,
+      "element": 6,
+      "energy": 100,
+      "crunch": 100,
+      "ability": 90,
+      "code": "0CYUG",
+      "type": "mega",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_armagedomon_dtector_0.png",
+        "spr_armagedomon_dtector_1.png",
+        "spr_armagedomon_dtector_2.png",
+        "spr_armagedomon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 93,
+      "sprite": "spr_zedmilleniumon_dtector",
+      "number": 394,
+      "name": "zedmilleniumon",
+      "level": 80,
+      "hp": 190,
+      "element": 8,
+      "energy": 90,
+      "crunch": 60,
+      "ability": 130,
+      "code": "PS6K5",
+      "type": "mega",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_zedmilleniumon_dtector_0.png",
+        "spr_zedmilleniumon_dtector_1.png",
+        "spr_zedmilleniumon_dtector_2.png",
+        "spr_zedmilleniumon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 94,
+      "sprite": "spr_malomyotismon_dtector",
+      "number": 353,
+      "name": "malomyotismon",
+      "level": 75,
+      "hp": 210,
+      "element": 4,
+      "energy": 60,
+      "crunch": 120,
+      "ability": 100,
+      "code": "IWDPI",
+      "type": "mega",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_malomyotismon_dtector_0.png",
+        "spr_malomyotismon_dtector_1.png",
+        "spr_malomyotismon_dtector_2.png",
+        "spr_malomyotismon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 95,
+      "sprite": "spr_megidramon_dtector",
+      "number": 390,
+      "name": "megidramon",
+      "level": 77,
+      "hp": 200,
+      "element": 0,
+      "energy": 140,
+      "crunch": 90,
+      "ability": 60,
+      "code": "ZU3F8",
+      "type": "mega",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_megidramon_dtector_0.png",
+        "spr_megidramon_dtector_1.png",
+        "spr_megidramon_dtector_2.png",
+        "spr_megidramon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 96,
+      "sprite": "spr_azulogmon_dtector",
+      "number": 322,
+      "name": "azulogmon",
+      "level": 82,
+      "hp": 210,
+      "element": 2,
+      "energy": 80,
+      "crunch": 80,
+      "ability": 150,
+      "code": "JZ1MR",
+      "type": "mega",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_azulogmon_dtector_0.png",
+        "spr_azulogmon_dtector_1.png",
+        "spr_azulogmon_dtector_2.png",
+        "spr_azulogmon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 97,
+      "sprite": "spr_baihumon_dtector",
+      "number": 323,
+      "name": "baihumon",
+      "level": 80,
+      "hp": 210,
+      "element": 9,
+      "energy": 85,
+      "crunch": 140,
+      "ability": 75,
+      "code": "R4HVT",
+      "type": "mega",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_baihumon_dtector_0.png",
+        "spr_baihumon_dtector_1.png",
+        "spr_baihumon_dtector_2.png",
+        "spr_baihumon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 98,
+      "sprite": "spr_ebonwumon_dtector",
+      "number": 320,
+      "name": "ebonwumon",
+      "level": 82,
+      "hp": 210,
+      "element": 0,
+      "energy": 150,
+      "crunch": 75,
+      "ability": 75,
+      "code": "QBHBZ",
+      "type": "mega",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_ebonwumon_dtector_0.png",
+        "spr_ebonwumon_dtector_1.png",
+        "spr_ebonwumon_dtector_2.png",
+        "spr_ebonwumon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 99,
+      "sprite": "spr_zhuqiaomon_dtector",
+      "number": 321,
+      "name": "zhuqiaomon",
+      "level": 80,
+      "hp": 220,
+      "element": 7,
+      "energy": 85,
+      "crunch": 150,
+      "ability": 65,
+      "code": "36ZLW",
+      "type": "mega",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_zhuqiaomon_dtector_0.png",
+        "spr_zhuqiaomon_dtector_1.png",
+        "spr_zhuqiaomon_dtector_2.png",
+        "spr_zhuqiaomon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 100,
+      "sprite": "spr_agunimon_dtector",
+      "number": 432,
+      "name": "agunimon",
+      "level": -4,
+      "hp": 155,
+      "element": 0,
+      "energy": 82,
+      "crunch": 80,
+      "ability": 75,
+      "code": "K0AS7",
+      "type": "spirit",
+      "evolution": 101,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_agunimon_dtector_0.png",
+        "spr_agunimon_dtector_1.png",
+        "spr_agunimon_dtector_2.png",
+        "spr_agunimon_dtector_3.png",
+        "spr_agunimon_dtector_4.png"
+      ],
+      "runtime_stat_formulas": {
+        "hp": {
+          "character_id": 0,
+          "character_stat": "hp",
+          "offset": 75,
+          "formula": "character[0].hp + 75"
+        },
+        "energy": {
+          "character_id": 0,
+          "character_stat": "spirit",
+          "offset": 40,
+          "formula": "character[0].spirit + 40"
+        },
+        "crunch": {
+          "character_id": 0,
+          "character_stat": "stamina",
+          "offset": 25,
+          "formula": "character[0].stamina + 25"
+        },
+        "ability": {
+          "character_id": 0,
+          "character_stat": "skill",
+          "offset": 30,
+          "formula": "character[0].skill + 30"
+        }
+      },
+      "runtime_initial_stats": {
+        "hp": 81,
+        "energy": 45,
+        "crunch": 30,
+        "ability": 37
+      }
+    },
+    {
+      "id": 101,
+      "sprite": "spr_burningreymon_dtector",
+      "number": 433,
+      "name": "burningreymon",
+      "level": -4,
+      "hp": 170,
+      "element": 0,
+      "energy": 87,
+      "crunch": 85,
+      "ability": 80,
+      "code": "4BLV5",
+      "type": "spirit",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_burningreymon_dtector_0.png",
+        "spr_burningreymon_dtector_1.png",
+        "spr_burningreymon_dtector_2.png",
+        "spr_burningreymon_dtector_3.png",
+        "spr_burningreymon_dtector_4.png"
+      ],
+      "runtime_stat_formulas": {
+        "hp": {
+          "character_id": 0,
+          "character_stat": "hp",
+          "offset": 120,
+          "formula": "character[0].hp + 120"
+        },
+        "energy": {
+          "character_id": 0,
+          "character_stat": "spirit",
+          "offset": 35,
+          "formula": "character[0].spirit + 35"
+        },
+        "crunch": {
+          "character_id": 0,
+          "character_stat": "stamina",
+          "offset": 50,
+          "formula": "character[0].stamina + 50"
+        },
+        "ability": {
+          "character_id": 0,
+          "character_stat": "skill",
+          "offset": 40,
+          "formula": "character[0].skill + 40"
+        }
+      },
+      "runtime_initial_stats": {
+        "hp": 126,
+        "energy": 40,
+        "crunch": 55,
+        "ability": 47
+      }
+    },
+    {
+      "id": 102,
+      "sprite": "spr_lobomon_dtector",
+      "number": 434,
+      "name": "lobomon",
+      "level": -4,
+      "hp": 153,
+      "element": 1,
+      "energy": 80,
+      "crunch": 78,
+      "ability": 77,
+      "code": "BSWQ0",
+      "type": "spirit",
+      "evolution": 103,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_lobomon_dtector_0.png",
+        "spr_lobomon_dtector_1.png",
+        "spr_lobomon_dtector_2.png",
+        "spr_lobomon_dtector_3.png",
+        "spr_lobomon_dtector_4.png"
+      ],
+      "runtime_stat_formulas": {
+        "hp": {
+          "character_id": 1,
+          "character_stat": "hp",
+          "offset": 75,
+          "formula": "character[1].hp + 75"
+        },
+        "energy": {
+          "character_id": 1,
+          "character_stat": "spirit",
+          "offset": 25,
+          "formula": "character[1].spirit + 25"
+        },
+        "crunch": {
+          "character_id": 1,
+          "character_stat": "stamina",
+          "offset": 30,
+          "formula": "character[1].stamina + 30"
+        },
+        "ability": {
+          "character_id": 1,
+          "character_stat": "skill",
+          "offset": 45,
+          "formula": "character[1].skill + 45"
+        }
+      },
+      "runtime_initial_stats": {
+        "hp": 81,
+        "energy": 32,
+        "crunch": 35,
+        "ability": 50
+      }
+    },
+    {
+      "id": 103,
+      "sprite": "spr_kendogarurumon_dtector",
+      "number": 435,
+      "name": "kendogarurumon",
+      "level": -4,
+      "hp": 168,
+      "element": 1,
+      "energy": 85,
+      "crunch": 82,
+      "ability": 82,
+      "code": "O41FA",
+      "type": "spirit",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_kendogarurumon_dtector_0.png",
+        "spr_kendogarurumon_dtector_1.png",
+        "spr_kendogarurumon_dtector_2.png",
+        "spr_kendogarurumon_dtector_3.png",
+        "spr_kendogarurumon_dtector_4.png"
+      ],
+      "runtime_stat_formulas": {
+        "hp": {
+          "character_id": 1,
+          "character_stat": "hp",
+          "offset": 120,
+          "formula": "character[1].hp + 120"
+        },
+        "energy": {
+          "character_id": 1,
+          "character_stat": "spirit",
+          "offset": 50,
+          "formula": "character[1].spirit + 50"
+        },
+        "crunch": {
+          "character_id": 1,
+          "character_stat": "stamina",
+          "offset": 50,
+          "formula": "character[1].stamina + 50"
+        },
+        "ability": {
+          "character_id": 1,
+          "character_stat": "skill",
+          "offset": 25,
+          "formula": "character[1].skill + 25"
+        }
+      },
+      "runtime_initial_stats": {
+        "hp": 126,
+        "energy": 57,
+        "crunch": 55,
+        "ability": 30
+      }
+    },
+    {
+      "id": 104,
+      "sprite": "spr_beetlemon_dtector",
+      "number": 436,
+      "name": "beetlemon",
+      "level": -4,
+      "hp": 156,
+      "element": 2,
+      "energy": 83,
+      "crunch": 77,
+      "ability": 76,
+      "code": "5ZG51",
+      "type": "spirit",
+      "evolution": 105,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_beetlemon_dtector_0.png",
+        "spr_beetlemon_dtector_1.png",
+        "spr_beetlemon_dtector_2.png",
+        "spr_beetlemon_dtector_3.png",
+        "spr_beetlemon_dtector_4.png"
+      ],
+      "runtime_stat_formulas": {
+        "hp": {
+          "character_id": 2,
+          "character_stat": "hp",
+          "offset": 80,
+          "formula": "character[2].hp + 80"
+        },
+        "energy": {
+          "character_id": 2,
+          "character_stat": "spirit",
+          "offset": 25,
+          "formula": "character[2].spirit + 25"
+        },
+        "crunch": {
+          "character_id": 2,
+          "character_stat": "stamina",
+          "offset": 50,
+          "formula": "character[2].stamina + 50"
+        },
+        "ability": {
+          "character_id": 2,
+          "character_stat": "skill",
+          "offset": 20,
+          "formula": "character[2].skill + 20"
+        }
+      },
+      "runtime_initial_stats": {
+        "hp": 88,
+        "energy": 29,
+        "crunch": 58,
+        "ability": 25
+      }
+    },
+    {
+      "id": 105,
+      "sprite": "spr_metalkabuterimon_dtector",
+      "number": 437,
+      "name": "metalkabuterimon",
+      "level": -4,
+      "hp": 172,
+      "element": 2,
+      "energy": 88,
+      "crunch": 86,
+      "ability": 79,
+      "code": "WYW0Z",
+      "type": "spirit",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_metalkabuterimon_dtector_0.png",
+        "spr_metalkabuterimon_dtector_1.png",
+        "spr_metalkabuterimon_dtector_2.png",
+        "spr_metalkabuterimon_dtector_3.png",
+        "spr_metalkabuterimon_dtector_4.png"
+      ],
+      "runtime_stat_formulas": {
+        "hp": {
+          "character_id": 2,
+          "character_stat": "hp",
+          "offset": 120,
+          "formula": "character[2].hp + 120"
+        },
+        "energy": {
+          "character_id": 2,
+          "character_stat": "spirit",
+          "offset": 40,
+          "formula": "character[2].spirit + 40"
+        },
+        "crunch": {
+          "character_id": 2,
+          "character_stat": "stamina",
+          "offset": 60,
+          "formula": "character[2].stamina + 60"
+        },
+        "ability": {
+          "character_id": 2,
+          "character_stat": "skill",
+          "offset": 25,
+          "formula": "character[2].skill + 25"
+        }
+      },
+      "runtime_initial_stats": {
+        "hp": 128,
+        "energy": 44,
+        "crunch": 68,
+        "ability": 30
+      }
+    },
+    {
+      "id": 106,
+      "sprite": "spr_kazemon_dtector",
+      "number": 438,
+      "name": "kazemon",
+      "level": -4,
+      "hp": 150,
+      "element": 3,
+      "energy": 80,
+      "crunch": 76,
+      "ability": 81,
+      "code": "KDOQG",
+      "type": "spirit",
+      "evolution": 107,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_kazemon_dtector_0.png",
+        "spr_kazemon_dtector_1.png",
+        "spr_kazemon_dtector_2.png",
+        "spr_kazemon_dtector_3.png",
+        "spr_kazemon_dtector_4.png"
+      ],
+      "runtime_stat_formulas": {
+        "hp": {
+          "character_id": 3,
+          "character_stat": "hp",
+          "offset": 70,
+          "formula": "character[3].hp + 70"
+        },
+        "energy": {
+          "character_id": 3,
+          "character_stat": "spirit",
+          "offset": 25,
+          "formula": "character[3].spirit + 25"
+        },
+        "crunch": {
+          "character_id": 3,
+          "character_stat": "stamina",
+          "offset": 20,
+          "formula": "character[3].stamina + 20"
+        },
+        "ability": {
+          "character_id": 3,
+          "character_stat": "skill",
+          "offset": 50,
+          "formula": "character[3].skill + 50"
+        }
+      },
+      "runtime_initial_stats": {
+        "hp": 75,
+        "energy": 30,
+        "crunch": 24,
+        "ability": 57
+      }
+    },
+    {
+      "id": 107,
+      "sprite": "spr_zephyrmon_dtector",
+      "number": 439,
+      "name": "zephyrmon",
+      "level": -4,
+      "hp": 165,
+      "element": 3,
+      "energy": 85,
+      "crunch": 80,
+      "ability": 85,
+      "code": "O2HRF",
+      "type": "spirit",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_zephyrmon_dtector_0.png",
+        "spr_zephyrmon_dtector_1.png",
+        "spr_zephyrmon_dtector_2.png",
+        "spr_zephyrmon_dtector_3.png",
+        "spr_zephyrmon_dtector_4.png"
+      ],
+      "runtime_stat_formulas": {
+        "hp": {
+          "character_id": 3,
+          "character_stat": "hp",
+          "offset": 110,
+          "formula": "character[3].hp + 110"
+        },
+        "energy": {
+          "character_id": 3,
+          "character_stat": "spirit",
+          "offset": 40,
+          "formula": "character[3].spirit + 40"
+        },
+        "crunch": {
+          "character_id": 3,
+          "character_stat": "stamina",
+          "offset": 35,
+          "formula": "character[3].stamina + 35"
+        },
+        "ability": {
+          "character_id": 3,
+          "character_stat": "skill",
+          "offset": 60,
+          "formula": "character[3].skill + 60"
+        }
+      },
+      "runtime_initial_stats": {
+        "hp": 115,
+        "energy": 45,
+        "crunch": 39,
+        "ability": 67
+      }
+    },
+    {
+      "id": 108,
+      "sprite": "spr_kumamon_dtector",
+      "number": 440,
+      "name": "kumamon",
+      "level": -4,
+      "hp": 154,
+      "element": 4,
+      "energy": 81,
+      "crunch": 75,
+      "ability": 78,
+      "code": "BRU2R",
+      "type": "spirit",
+      "evolution": 109,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_kumamon_dtector_0.png",
+        "spr_kumamon_dtector_1.png",
+        "spr_kumamon_dtector_2.png",
+        "spr_kumamon_dtector_3.png",
+        "spr_kumamon_dtector_4.png"
+      ],
+      "runtime_stat_formulas": {
+        "hp": {
+          "character_id": 4,
+          "character_stat": "hp",
+          "offset": 70,
+          "formula": "character[4].hp + 70"
+        },
+        "energy": {
+          "character_id": 4,
+          "character_stat": "spirit",
+          "offset": 30,
+          "formula": "character[4].spirit + 30"
+        },
+        "crunch": {
+          "character_id": 4,
+          "character_stat": "stamina",
+          "offset": 30,
+          "formula": "character[4].stamina + 30"
+        },
+        "ability": {
+          "character_id": 4,
+          "character_stat": "skill",
+          "offset": 30,
+          "formula": "character[4].skill + 30"
+        }
+      },
+      "runtime_initial_stats": {
+        "hp": 75,
+        "energy": 37,
+        "crunch": 35,
+        "ability": 34
+      }
+    },
+    {
+      "id": 109,
+      "sprite": "spr_korikakumon_dtector",
+      "number": 441,
+      "name": "korikakumon",
+      "level": -4,
+      "hp": 169,
+      "element": 4,
+      "energy": 86,
+      "crunch": 81,
+      "ability": 83,
+      "code": "73U38",
+      "type": "spirit",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_korikakumon_dtector_0.png",
+        "spr_korikakumon_dtector_1.png",
+        "spr_korikakumon_dtector_2.png",
+        "spr_korikakumon_dtector_3.png",
+        "spr_korikakumon_dtector_4.png"
+      ],
+      "runtime_stat_formulas": {
+        "hp": {
+          "character_id": 4,
+          "character_stat": "hp",
+          "offset": 130,
+          "formula": "character[4].hp + 130"
+        },
+        "energy": {
+          "character_id": 4,
+          "character_stat": "spirit",
+          "offset": 40,
+          "formula": "character[4].spirit + 40"
+        },
+        "crunch": {
+          "character_id": 4,
+          "character_stat": "stamina",
+          "offset": 50,
+          "formula": "character[4].stamina + 50"
+        },
+        "ability": {
+          "character_id": 4,
+          "character_stat": "skill",
+          "offset": 35,
+          "formula": "character[4].skill + 35"
+        }
+      },
+      "runtime_initial_stats": {
+        "hp": 135,
+        "energy": 47,
+        "crunch": 55,
+        "ability": 39
+      }
+    },
+    {
+      "id": 110,
+      "sprite": "spr_loweemon_dtector",
+      "number": 460,
+      "name": "loweemon",
+      "level": -4,
+      "hp": 158,
+      "element": 5,
+      "energy": 82,
+      "crunch": 79,
+      "ability": 77,
+      "code": "Y8O0Q",
+      "type": "spirit",
+      "evolution": 111,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_loweemon_dtector_0.png",
+        "spr_loweemon_dtector_1.png",
+        "spr_loweemon_dtector_2.png",
+        "spr_loweemon_dtector_3.png",
+        "spr_loweemon_dtector_4.png"
+      ],
+      "runtime_stat_formulas": {
+        "hp": {
+          "character_id": 5,
+          "character_stat": "hp",
+          "offset": 75,
+          "formula": "character[5].hp + 75"
+        },
+        "energy": {
+          "character_id": 5,
+          "character_stat": "spirit",
+          "offset": 45,
+          "formula": "character[5].spirit + 45"
+        },
+        "crunch": {
+          "character_id": 5,
+          "character_stat": "stamina",
+          "offset": 30,
+          "formula": "character[5].stamina + 30"
+        },
+        "ability": {
+          "character_id": 5,
+          "character_stat": "skill",
+          "offset": 25,
+          "formula": "character[5].skill + 25"
+        }
+      },
+      "runtime_initial_stats": {
+        "hp": 81,
+        "energy": 50,
+        "crunch": 35,
+        "ability": 32
+      }
+    },
+    {
+      "id": 111,
+      "sprite": "spr_kaiserleomon_dtector",
+      "number": 461,
+      "name": "kaiserleomon",
+      "level": -4,
+      "hp": 173,
+      "element": 5,
+      "energy": 87,
+      "crunch": 84,
+      "ability": 82,
+      "code": "MCJC0",
+      "type": "spirit",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_kaiserleomon_dtector_0.png",
+        "spr_kaiserleomon_dtector_1.png",
+        "spr_kaiserleomon_dtector_2.png",
+        "spr_kaiserleomon_dtector_3.png",
+        "spr_kaiserleomon_dtector_4.png"
+      ],
+      "runtime_stat_formulas": {
+        "hp": {
+          "character_id": 5,
+          "character_stat": "hp",
+          "offset": 120,
+          "formula": "character[5].hp + 120"
+        },
+        "energy": {
+          "character_id": 5,
+          "character_stat": "spirit",
+          "offset": 25,
+          "formula": "character[5].spirit + 25"
+        },
+        "crunch": {
+          "character_id": 5,
+          "character_stat": "stamina",
+          "offset": 50,
+          "formula": "character[5].stamina + 50"
+        },
+        "ability": {
+          "character_id": 5,
+          "character_stat": "skill",
+          "offset": 50,
+          "formula": "character[5].skill + 50"
+        }
+      },
+      "runtime_initial_stats": {
+        "hp": 126,
+        "energy": 30,
+        "crunch": 55,
+        "ability": 57
+      }
+    },
+    {
+      "id": 112,
+      "sprite": "spr_grumblemon_dtector",
+      "number": 444,
+      "name": "grumblemon",
+      "level": 65,
+      "hp": 140,
+      "element": 6,
+      "energy": 55,
+      "crunch": 100,
+      "ability": 70,
+      "code": "KFSIH",
+      "type": "boss",
+      "evolution": 113,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_grumblemon_dtector_0.png",
+        "spr_grumblemon_dtector_1.png",
+        "spr_grumblemon_dtector_2.png",
+        "spr_grumblemon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 113,
+      "sprite": "spr_gigasmon_dtector",
+      "number": 445,
+      "name": "gigasmon",
+      "level": 75,
+      "hp": 180,
+      "element": 6,
+      "energy": 75,
+      "crunch": 120,
+      "ability": 85,
+      "code": "1AXFH",
+      "type": "boss",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_gigasmon_dtector_0.png",
+        "spr_gigasmon_dtector_1.png",
+        "spr_gigasmon_dtector_2.png",
+        "spr_gigasmon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 114,
+      "sprite": "spr_arbormon_dtector",
+      "number": 446,
+      "name": "arbormon",
+      "level": 60,
+      "hp": 140,
+      "element": 7,
+      "energy": 70,
+      "crunch": 60,
+      "ability": 90,
+      "code": "WSSXL",
+      "type": "boss",
+      "evolution": 115,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_arbormon_dtector_0.png",
+        "spr_arbormon_dtector_1.png",
+        "spr_arbormon_dtector_2.png",
+        "spr_arbormon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 115,
+      "sprite": "spr_petaldramon_dtector",
+      "number": 447,
+      "name": "petaldramon",
+      "level": 75,
+      "hp": 160,
+      "element": 7,
+      "energy": 75,
+      "crunch": 70,
+      "ability": 130,
+      "code": "02G7O",
+      "type": "boss",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_petaldramon_dtector_0.png",
+        "spr_petaldramon_dtector_1.png",
+        "spr_petaldramon_dtector_2.png",
+        "spr_petaldramon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 116,
+      "sprite": "spr_mercurymon_dtector",
+      "number": 448,
+      "name": "mercurymon",
+      "level": 70,
+      "hp": 120,
+      "element": 8,
+      "energy": 140,
+      "crunch": 50,
+      "ability": 70,
+      "code": "C3VVL",
+      "type": "boss",
+      "evolution": 117,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_mercurymon_dtector_0.png",
+        "spr_mercurymon_dtector_1.png",
+        "spr_mercurymon_dtector_2.png",
+        "spr_mercurymon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 117,
+      "sprite": "spr_sephirotmon_dtector",
+      "number": 449,
+      "name": "sephirotmon",
+      "level": 75,
+      "hp": 150,
+      "element": 8,
+      "energy": 160,
+      "crunch": 55,
+      "ability": 70,
+      "code": "LCUTS",
+      "type": "boss",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_sephirotmon_dtector_0.png",
+        "spr_sephirotmon_dtector_1.png",
+        "spr_sephirotmon_dtector_2.png",
+        "spr_sephirotmon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 118,
+      "sprite": "spr_ranamon_dtector",
+      "number": 450,
+      "name": "lanamon",
+      "level": 60,
+      "hp": 120,
+      "element": 9,
+      "energy": 50,
+      "crunch": 50,
+      "ability": 120,
+      "code": "DMR1S",
+      "type": "boss",
+      "evolution": 119,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_ranamon_dtector_0.png",
+        "spr_ranamon_dtector_1.png",
+        "spr_ranamon_dtector_2.png",
+        "spr_ranamon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 119,
+      "sprite": "spr_calmaramon_dtector",
+      "number": 451,
+      "name": "calmaramon",
+      "level": 70,
+      "hp": 140,
+      "element": 9,
+      "energy": 50,
+      "crunch": 70,
+      "ability": 140,
+      "code": "QIRHA",
+      "type": "boss",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_calmaramon_dtector_0.png",
+        "spr_calmaramon_dtector_1.png",
+        "spr_calmaramon_dtector_2.png",
+        "spr_calmaramon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 120,
+      "sprite": "spr_duskmon_dtector",
+      "number": 442,
+      "name": "duskmon",
+      "level": 75,
+      "hp": 200,
+      "element": 5,
+      "energy": 140,
+      "crunch": 140,
+      "ability": 180,
+      "code": "P7FHS",
+      "type": "boss",
+      "evolution": 121,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_duskmon_dtector_0.png",
+        "spr_duskmon_dtector_1.png",
+        "spr_duskmon_dtector_2.png",
+        "spr_duskmon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 121,
+      "sprite": "spr_velgrmon_dtector",
+      "number": 443,
+      "name": "velgrmon",
+      "level": 80,
+      "hp": 200,
+      "element": 5,
+      "energy": 180,
+      "crunch": 180,
+      "ability": 140,
+      "code": "0HSB0",
+      "type": "boss",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_velgrmon_dtector_0.png",
+        "spr_velgrmon_dtector_1.png",
+        "spr_velgrmon_dtector_2.png",
+        "spr_velgrmon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 122,
+      "sprite": "spr_ancientgreymon_dtector",
+      "number": 467,
+      "name": "ancientgreymon",
+      "level": -4,
+      "hp": 220,
+      "element": 0,
+      "energy": 200,
+      "crunch": 160,
+      "ability": 80,
+      "code": "HY3YU",
+      "type": "ancient",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_ancientgreymon_dtector_0.png",
+        "spr_ancientgreymon_dtector_1.png",
+        "spr_ancientgreymon_dtector_2.png",
+        "spr_ancientgreymon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 123,
+      "sprite": "spr_ancientgarurumon_dtector",
+      "number": 468,
+      "name": "ancientgarurumon",
+      "level": -4,
+      "hp": 220,
+      "element": 1,
+      "energy": 160,
+      "crunch": 200,
+      "ability": 80,
+      "code": "UMMNJ",
+      "type": "ancient",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_ancientgarurumon_dtector_0.png",
+        "spr_ancientgarurumon_dtector_1.png",
+        "spr_ancientgarurumon_dtector_2.png",
+        "spr_ancientgarurumon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 124,
+      "sprite": "spr_ancientbeetlemon_dtector",
+      "number": 469,
+      "name": "ancientbeetlemon",
+      "level": -4,
+      "hp": 220,
+      "element": 2,
+      "energy": 80,
+      "crunch": 200,
+      "ability": 160,
+      "code": "0VM86",
+      "type": "ancient",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_ancientbeetlemon_dtector_0.png",
+        "spr_ancientbeetlemon_dtector_1.png",
+        "spr_ancientbeetlemon_dtector_2.png",
+        "spr_ancientbeetlemon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 125,
+      "sprite": "spr_ancientkazemon_dtector",
+      "number": 470,
+      "name": "ancientkazemon",
+      "level": -4,
+      "hp": 220,
+      "element": 3,
+      "energy": 50,
+      "crunch": 180,
+      "ability": 200,
+      "code": "XTIU4",
+      "type": "ancient",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_ancientkazemon_dtector_0.png",
+        "spr_ancientkazemon_dtector_1.png",
+        "spr_ancientkazemon_dtector_2.png",
+        "spr_ancientkazemon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 126,
+      "sprite": "spr_ancientmegatheriumon_dtector",
+      "number": 471,
+      "name": "ancientmegatheriumon",
+      "level": -4,
+      "hp": 220,
+      "element": 4,
+      "energy": 110,
+      "crunch": 120,
+      "ability": 200,
+      "code": "D8SC6",
+      "type": "ancient",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_ancientmegatheriumon_dtector_0.png",
+        "spr_ancientmegatheriumon_dtector_1.png",
+        "spr_ancientmegatheriumon_dtector_2.png",
+        "spr_ancientmegatheriumon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 127,
+      "sprite": "spr_ancientsphinxmon_dtector",
+      "number": 476,
+      "name": "ancientsphinxmon",
+      "level": -4,
+      "hp": 220,
+      "element": 5,
+      "energy": 200,
+      "crunch": 40,
+      "ability": 200,
+      "code": "SI3IG",
+      "type": "ancient",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_ancientsphinxmon_dtector_0.png",
+        "spr_ancientsphinxmon_dtector_1.png",
+        "spr_ancientsphinxmon_dtector_2.png",
+        "spr_ancientsphinxmon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 128,
+      "sprite": "spr_kerpymon_dtector",
+      "number": 467,
+      "name": "kerpymon",
+      "level": -4,
+      "hp": 200,
+      "element": 1,
+      "energy": 160,
+      "crunch": 160,
+      "ability": 160,
+      "code": -4,
+      "type": "final_boss",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_kerpymon_dtector_0.png",
+        "spr_kerpymon_dtector_1.png",
+        "spr_kerpymon_dtector_2.png",
+        "spr_kerpymon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 129,
+      "sprite": "spr_kerpymon_b_dtector",
+      "number": 468,
+      "name": "kerpymon_black",
+      "level": -4,
+      "hp": 250,
+      "element": 5,
+      "energy": 200,
+      "crunch": 200,
+      "ability": 200,
+      "code": -4,
+      "type": "final_boss",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_kerpymon_b_dtector_0.png",
+        "spr_kerpymon_b_dtector_1.png",
+        "spr_kerpymon_b_dtector_2.png",
+        "spr_kerpymon_b_dtector_3.png"
+      ]
+    },
+    {
+      "id": 130,
+      "sprite": "spr_lucemon_dtector",
+      "number": 469,
+      "name": "lucemon",
+      "level": -4,
+      "hp": 250,
+      "element": 5,
+      "energy": 60,
+      "crunch": 60,
+      "ability": 60,
+      "code": -4,
+      "type": "final_boss",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_lucemon_dtector_0.png",
+        "spr_lucemon_dtector_1.png",
+        "spr_lucemon_dtector_2.png",
+        "spr_lucemon_dtector_3.png",
+        "spr_lucemon_dtector_4.png"
+      ]
+    },
+    {
+      "id": 131,
+      "sprite": "spr_grumblemon_dtector",
+      "number": 444,
+      "name": "grumblemon",
+      "level": 65,
+      "hp": 140,
+      "element": 6,
+      "energy": 55,
+      "crunch": 100,
+      "ability": 70,
+      "code": -4,
+      "type": "final_boss",
+      "evolution": 113,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_grumblemon_dtector_0.png",
+        "spr_grumblemon_dtector_1.png",
+        "spr_grumblemon_dtector_2.png",
+        "spr_grumblemon_dtector_3.png"
+      ],
+      "runtime_stat_formulas": {
+        "hp": {
+          "character_id": 2,
+          "character_stat": "hp",
+          "offset": 100,
+          "formula": "character[2].hp + 100"
+        },
+        "energy": {
+          "character_id": 2,
+          "character_stat": "spirit",
+          "offset": 25,
+          "formula": "character[2].spirit + 25"
+        },
+        "crunch": {
+          "character_id": 2,
+          "character_stat": "stamina",
+          "offset": 20,
+          "formula": "character[2].stamina + 20"
+        },
+        "ability": {
+          "character_id": 2,
+          "character_stat": "skill",
+          "offset": 50,
+          "formula": "character[2].skill + 50"
+        }
+      },
+      "runtime_initial_stats": {
+        "hp": 108,
+        "energy": 29,
+        "crunch": 28,
+        "ability": 55
+      }
+    },
+    {
+      "id": 132,
+      "sprite": "spr_gigasmon_dtector",
+      "number": 445,
+      "name": "gigasmon",
+      "level": 75,
+      "hp": 180,
+      "element": 6,
+      "energy": 75,
+      "crunch": 120,
+      "ability": 85,
+      "code": -4,
+      "type": "final_boss",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_gigasmon_dtector_0.png",
+        "spr_gigasmon_dtector_1.png",
+        "spr_gigasmon_dtector_2.png",
+        "spr_gigasmon_dtector_3.png"
+      ],
+      "runtime_stat_formulas": {
+        "hp": {
+          "character_id": 2,
+          "character_stat": "hp",
+          "offset": 150,
+          "formula": "character[2].hp + 150"
+        },
+        "energy": {
+          "character_id": 2,
+          "character_stat": "spirit",
+          "offset": 25,
+          "formula": "character[2].spirit + 25"
+        },
+        "crunch": {
+          "character_id": 2,
+          "character_stat": "stamina",
+          "offset": 60,
+          "formula": "character[2].stamina + 60"
+        },
+        "ability": {
+          "character_id": 2,
+          "character_stat": "skill",
+          "offset": 50,
+          "formula": "character[2].skill + 50"
+        }
+      },
+      "runtime_initial_stats": {
+        "hp": 158,
+        "energy": 29,
+        "crunch": 68,
+        "ability": 55
+      }
+    },
+    {
+      "id": 133,
+      "sprite": "spr_arbormon_dtector",
+      "number": 446,
+      "name": "arbormon",
+      "level": 60,
+      "hp": 140,
+      "element": 7,
+      "energy": 70,
+      "crunch": 60,
+      "ability": 90,
+      "code": -4,
+      "type": "final_boss",
+      "evolution": 115,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_arbormon_dtector_0.png",
+        "spr_arbormon_dtector_1.png",
+        "spr_arbormon_dtector_2.png",
+        "spr_arbormon_dtector_3.png"
+      ],
+      "runtime_stat_formulas": {
+        "hp": {
+          "character_id": 4,
+          "character_stat": "hp",
+          "offset": 80,
+          "formula": "character[4].hp + 80"
+        },
+        "energy": {
+          "character_id": 4,
+          "character_stat": "spirit",
+          "offset": 35,
+          "formula": "character[4].spirit + 35"
+        },
+        "crunch": {
+          "character_id": 4,
+          "character_stat": "stamina",
+          "offset": 35,
+          "formula": "character[4].stamina + 35"
+        },
+        "ability": {
+          "character_id": 4,
+          "character_stat": "skill",
+          "offset": 35,
+          "formula": "character[4].skill + 35"
+        }
+      },
+      "runtime_initial_stats": {
+        "hp": 85,
+        "energy": 42,
+        "crunch": 40,
+        "ability": 39
+      }
+    },
+    {
+      "id": 134,
+      "sprite": "spr_petaldramon_dtector",
+      "number": 447,
+      "name": "petaldramon",
+      "level": 75,
+      "hp": 160,
+      "element": 7,
+      "energy": 75,
+      "crunch": 70,
+      "ability": 130,
+      "code": -4,
+      "type": "final_boss",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_petaldramon_dtector_0.png",
+        "spr_petaldramon_dtector_1.png",
+        "spr_petaldramon_dtector_2.png",
+        "spr_petaldramon_dtector_3.png"
+      ],
+      "runtime_stat_formulas": {
+        "hp": {
+          "character_id": 4,
+          "character_stat": "hp",
+          "offset": 120,
+          "formula": "character[4].hp + 120"
+        },
+        "energy": {
+          "character_id": 4,
+          "character_stat": "spirit",
+          "offset": 55,
+          "formula": "character[4].spirit + 55"
+        },
+        "crunch": {
+          "character_id": 4,
+          "character_stat": "stamina",
+          "offset": 20,
+          "formula": "character[4].stamina + 20"
+        },
+        "ability": {
+          "character_id": 4,
+          "character_stat": "skill",
+          "offset": 55,
+          "formula": "character[4].skill + 55"
+        }
+      },
+      "runtime_initial_stats": {
+        "hp": 125,
+        "energy": 62,
+        "crunch": 25,
+        "ability": 59
+      }
+    },
+    {
+      "id": 135,
+      "sprite": "spr_mercurymon_dtector",
+      "number": 448,
+      "name": "mercurymon",
+      "level": 70,
+      "hp": 120,
+      "element": 8,
+      "energy": 140,
+      "crunch": 50,
+      "ability": 70,
+      "code": -4,
+      "type": "final_boss",
+      "evolution": 117,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_mercurymon_dtector_0.png",
+        "spr_mercurymon_dtector_1.png",
+        "spr_mercurymon_dtector_2.png",
+        "spr_mercurymon_dtector_3.png"
+      ],
+      "runtime_stat_formulas": {
+        "hp": {
+          "character_id": 5,
+          "character_stat": "hp",
+          "offset": 50,
+          "formula": "character[5].hp + 50"
+        },
+        "energy": {
+          "character_id": 5,
+          "character_stat": "spirit",
+          "offset": 50,
+          "formula": "character[5].spirit + 50"
+        },
+        "crunch": {
+          "character_id": 5,
+          "character_stat": "stamina",
+          "offset": 20,
+          "formula": "character[5].stamina + 20"
+        },
+        "ability": {
+          "character_id": 5,
+          "character_stat": "skill",
+          "offset": 40,
+          "formula": "character[5].skill + 40"
+        }
+      },
+      "runtime_initial_stats": {
+        "hp": 56,
+        "energy": 55,
+        "crunch": 25,
+        "ability": 47
+      }
+    },
+    {
+      "id": 136,
+      "sprite": "spr_sephirotmon_dtector",
+      "number": 449,
+      "name": "sephirotmon",
+      "level": 75,
+      "hp": 150,
+      "element": 8,
+      "energy": 160,
+      "crunch": 55,
+      "ability": 70,
+      "code": -4,
+      "type": "final_boss",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_sephirotmon_dtector_0.png",
+        "spr_sephirotmon_dtector_1.png",
+        "spr_sephirotmon_dtector_2.png",
+        "spr_sephirotmon_dtector_3.png"
+      ],
+      "runtime_stat_formulas": {
+        "hp": {
+          "character_id": 5,
+          "character_stat": "hp",
+          "offset": 70,
+          "formula": "character[5].hp + 70"
+        },
+        "energy": {
+          "character_id": 5,
+          "character_stat": "spirit",
+          "offset": 25,
+          "formula": "character[5].spirit + 25"
+        },
+        "crunch": {
+          "character_id": 5,
+          "character_stat": "stamina",
+          "offset": 70,
+          "formula": "character[5].stamina + 70"
+        },
+        "ability": {
+          "character_id": 5,
+          "character_stat": "skill",
+          "offset": 60,
+          "formula": "character[5].skill + 60"
+        }
+      },
+      "runtime_initial_stats": {
+        "hp": 76,
+        "energy": 30,
+        "crunch": 75,
+        "ability": 67
+      }
+    },
+    {
+      "id": 137,
+      "sprite": "spr_ranamon_dtector",
+      "number": 450,
+      "name": "lanamon",
+      "level": 60,
+      "hp": 120,
+      "element": 9,
+      "energy": 50,
+      "crunch": 50,
+      "ability": 120,
+      "code": -4,
+      "type": "final_boss",
+      "evolution": 119,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_ranamon_dtector_0.png",
+        "spr_ranamon_dtector_1.png",
+        "spr_ranamon_dtector_2.png",
+        "spr_ranamon_dtector_3.png"
+      ],
+      "runtime_stat_formulas": {
+        "hp": {
+          "character_id": 3,
+          "character_stat": "hp",
+          "offset": 90,
+          "formula": "character[3].hp + 90"
+        },
+        "energy": {
+          "character_id": 3,
+          "character_stat": "spirit",
+          "offset": 60,
+          "formula": "character[3].spirit + 60"
+        },
+        "crunch": {
+          "character_id": 3,
+          "character_stat": "stamina",
+          "offset": 20,
+          "formula": "character[3].stamina + 20"
+        },
+        "ability": {
+          "character_id": 3,
+          "character_stat": "skill",
+          "offset": 25,
+          "formula": "character[3].skill + 25"
+        }
+      },
+      "runtime_initial_stats": {
+        "hp": 95,
+        "energy": 65,
+        "crunch": 24,
+        "ability": 32
+      }
+    },
+    {
+      "id": 138,
+      "sprite": "spr_calmaramon_dtector",
+      "number": 451,
+      "name": "calmaramon",
+      "level": 70,
+      "hp": 140,
+      "element": 9,
+      "energy": 50,
+      "crunch": 70,
+      "ability": 140,
+      "code": -4,
+      "type": "final_boss",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_calmaramon_dtector_0.png",
+        "spr_calmaramon_dtector_1.png",
+        "spr_calmaramon_dtector_2.png",
+        "spr_calmaramon_dtector_3.png"
+      ],
+      "runtime_stat_formulas": {
+        "hp": {
+          "character_id": 3,
+          "character_stat": "hp",
+          "offset": 120,
+          "formula": "character[3].hp + 120"
+        },
+        "energy": {
+          "character_id": 3,
+          "character_stat": "spirit",
+          "offset": 25,
+          "formula": "character[3].spirit + 25"
+        },
+        "crunch": {
+          "character_id": 3,
+          "character_stat": "stamina",
+          "offset": 80,
+          "formula": "character[3].stamina + 80"
+        },
+        "ability": {
+          "character_id": 3,
+          "character_stat": "skill",
+          "offset": 30,
+          "formula": "character[3].skill + 30"
+        }
+      },
+      "runtime_initial_stats": {
+        "hp": 125,
+        "energy": 30,
+        "crunch": 84,
+        "ability": 37
+      }
+    },
+    {
+      "id": 139,
+      "sprite": "spr_duskmon_dtector",
+      "number": 442,
+      "name": "duskmon",
+      "level": 75,
+      "hp": 200,
+      "element": 5,
+      "energy": 140,
+      "crunch": 140,
+      "ability": 180,
+      "code": -4,
+      "type": "final_boss",
+      "evolution": 121,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_duskmon_dtector_0.png",
+        "spr_duskmon_dtector_1.png",
+        "spr_duskmon_dtector_2.png",
+        "spr_duskmon_dtector_3.png"
+      ]
+    },
+    {
+      "id": 140,
+      "sprite": "spr_velgrmon_dtector",
+      "number": 443,
+      "name": "velgrmon",
+      "level": 80,
+      "hp": 200,
+      "element": 5,
+      "energy": 180,
+      "crunch": 180,
+      "ability": 140,
+      "code": -4,
+      "type": "final_boss",
+      "evolution": -1,
+      "unlock": false,
+      "sprite_frames": [
+        "spr_velgrmon_dtector_0.png",
+        "spr_velgrmon_dtector_1.png",
+        "spr_velgrmon_dtector_2.png",
+        "spr_velgrmon_dtector_3.png"
+      ]
+    }
+  ]
+}

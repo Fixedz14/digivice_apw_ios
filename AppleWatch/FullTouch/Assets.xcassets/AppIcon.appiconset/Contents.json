@@ -1,0 +1,23 @@
+{
+  "images" : [
+    { "filename" : "icon-48.png", "idiom" : "watch", "role" : "notificationCenter", "scale" : "2x", "subtype" : "38mm", "size" : "24x24" },
+    { "filename" : "icon-55.png", "idiom" : "watch", "role" : "notificationCenter", "scale" : "2x", "subtype" : "42mm", "size" : "27.5x27.5" },
+    { "filename" : "icon-58.png", "idiom" : "watch", "role" : "companionSettings", "scale" : "2x", "size" : "29x29" },
+    { "filename" : "icon-87.png", "idiom" : "watch", "role" : "companionSettings", "scale" : "3x", "size" : "29x29" },
+    { "filename" : "icon-80.png", "idiom" : "watch", "role" : "appLauncher", "scale" : "2x", "subtype" : "38mm", "size" : "40x40" },
+    { "filename" : "icon-88.png", "idiom" : "watch", "role" : "appLauncher", "scale" : "2x", "subtype" : "40mm", "size" : "44x44" },
+    { "filename" : "icon-100.png", "idiom" : "watch", "role" : "appLauncher", "scale" : "2x", "subtype" : "44mm", "size" : "50x50" },
+    { "filename" : "icon-102.png", "idiom" : "watch", "role" : "appLauncher", "scale" : "2x", "subtype" : "45mm", "size" : "51x51" },
+    { "filename" : "icon-108.png", "idiom" : "watch", "role" : "appLauncher", "scale" : "2x", "subtype" : "49mm", "size" : "54x54" },
+    { "filename" : "icon-172.png", "idiom" : "watch", "role" : "quickLook", "scale" : "2x", "subtype" : "38mm", "size" : "86x86" },
+    { "filename" : "icon-196.png", "idiom" : "watch", "role" : "quickLook", "scale" : "2x", "subtype" : "42mm", "size" : "98x98" },
+    { "filename" : "icon-216.png", "idiom" : "watch", "role" : "quickLook", "scale" : "2x", "subtype" : "44mm", "size" : "108x108" },
+    { "filename" : "icon-234.png", "idiom" : "watch", "role" : "quickLook", "scale" : "2x", "subtype" : "45mm", "size" : "117x117" },
+    { "filename" : "icon-258.png", "idiom" : "watch", "role" : "quickLook", "scale" : "2x", "subtype" : "49mm", "size" : "129x129" },
+    { "filename" : "icon-1024.png", "idiom" : "watch-marketing", "scale" : "1x", "size" : "1024x1024" }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

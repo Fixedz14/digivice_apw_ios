@@ -1,0 +1,7 @@
+.DS_Store
+AppleWatch/DerivedDataDevice/
+AppleWatch/DerivedDataRelease/
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/

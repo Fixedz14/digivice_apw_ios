@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "summary": {
+    "pass": 12,
+    "warning": 5
+  },
+  "counts": {
+    "gml_files_in_export": 1658,
+    "digimon": 141,
+    "characters": 6,
+    "spirit_slots": 12,
+    "areas": 13,
+    "normal_area_boss_configs": 12,
+    "evolution_edges": 56,
+    "dynamic_stat_targets": 20,
+    "starting_digimon_candidates": 12,
+    "digimon_type_counts": {
+      "ancient": 6,
+      "boss": 10,
+      "champion": 26,
+      "final_boss": 13,
+      "mega": 33,
+      "rookie": 17,
+      "spirit": 12,
+      "ultimate": 24
+    }
+  },
+  "checks": [
+    {
+      "name": "digimon_count",
+      "status": "pass",
+      "details": {
+        "actual": 141,
+        "expected": 141
+      }
+    },
+    {
+      "name": "character_count",
+      "status": "pass",
+      "details": {
+        "actual": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "spirit_slot_count",
+      "status": "pass",
+      "details": {
+        "actual": 12,
+        "expected": 12
+      }
+    },
+    {
+      "name": "area_count",
+      "status": "pass",
+      "details": {
+        "actual": 13,
+        "expected": 13
+      }
+    },
+    {
+      "name": "digimon_required_fields",
+      "status": "pass",
+      "details": {
+        "incomplete_ids": []
+      }
+    },
+    {
+      "name": "evolution_targets_in_range",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "name": "digimon_sprite_assets",
+      "status": "pass",
+      "details": {
+        "missing": []
+      }
+    },
+    {
+      "name": "character_sprite_assets",
+      "status": "pass",
+      "details": {
+        "missing": []
+      }
+    },
+    {
+      "name": "external_digimon_numbers_unique",
+      "status": "warning",
+      "details": {
+        "duplicate_number_groups": {
+          "306": [
+            69,
+            89
+          ],
+          "366": [
+            71,
+            90
+          ],
+          "442": [
+            120,
+            139
+          ],
+          "443": [
+            121,
+            140
+          ],
+          "444": [
+            112,
+            131
+          ],
+          "445": [
+            113,
+            132
+          ],
+          "446": [
+            114,
+            133
+          ],
+          "447": [
+            115,
+            134
+          ],
+          "448": [
+            116,
+            135
+          ],
+          "449": [
+            117,
+            136
+          ],
+          "450": [
+            118,
+            137
+          ],
+          "451": [
+            119,
+            138
+          ],
+          "467": [
+            122,
+            128
+          ],
+          "468": [
+            123,
+            129
+          ],
+          "469": [
+            124,
+            130
+          ]
+        },
+        "note": "Form variants and final-boss aliases reuse several external numbers; database index remains the authoritative runtime id."
+      }
+    },
+    {
+      "name": "ancient_party_indexes_in_range",
+      "status": "warning",
+      "details": {
+        "invalid": [
+          {
+            "digimon": {
+              "id": 127,
+              "name": "ancientsphinxmon",
+              "number": 476
+            },
+            "required_character_party_index": 10,
+            "required_spirit_slots": [
+              10,
+              11
+            ]
+          }
+        ],
+        "note": "Ancientsphinxmon id 127 checks char_party[10] although char_party has 6 entries."
+      }
+    },
+    {
+      "name": "digimon_to_spirit_function_covers_all_slots",
+      "status": "warning",
+      "details": {
+        "missing_slots": [
+          1,
+          3
+        ],
+        "note": "The source switch omits beast-spirit ids 101 and 103."
+      }
+    },
+    {
+      "name": "digidigit_mapping_covers_all_spirits",
+      "status": "pass",
+      "details": {
+        "mapped_ids": {
+          "100": 0,
+          "101": 1,
+          "102": 2,
+          "103": 3,
+          "104": 4,
+          "105": 5,
+          "106": 6,
+          "107": 7,
+          "108": 8,
+          "109": 9,
+          "110": 10,
+          "111": 11
+        },
+        "missing_slots": []
+      }
+    },
+    {
+      "name": "starting_character_spirit_mapping",
+      "status": "pass",
+      "details": {
+        "character_to_spirit_slot": {
+          "0": 0,
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      }
+    },
+    {
+      "name": "main_and_reset_defaults_match",
+      "status": "warning",
+      "details": {
+        "current_char": {
+          "main_create": 0,
+          "reset_function": 3
+        },
+        "distance": {
+          "main_create": 6000,
+          "reset_function": 999999
+        },
+        "docks": {
+          "main_create": [
+            0,
+            -1,
+            -1,
+            -1
+          ],
+          "reset_function": [
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "dpower": {
+          "main_create": 99,
+          "reset_function": 0
+        },
+        "steps": {
+          "main_create": 0,
+          "reset_function": 400
+        }
+      }
+    },
+    {
+      "name": "area_11_map_draw_identifier_consistency",
+      "status": "warning",
+      "details": {
+        "note": "Map group 3 draws the third normal node when current_area == 12, but selection logic uses aux_area == 11. This appears to be a source bug."
+      }
+    },
+    {
+      "name": "parallel_character_arrays",
+      "status": "pass",
+      "details": {
+        "char_stats": 6,
+        "char_database": 6,
+        "char_unlocked": 6,
+        "char_party": 6
+      }
+    },
+    {
+      "name": "parallel_area_arrays",
+      "status": "pass",
+      "details": {
+        "area_distance": 13,
+        "area_status": 13
+      }
+    }
+  ]
+}

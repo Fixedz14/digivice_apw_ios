@@ -1,0 +1,484 @@
+{
+  "schema_version": 1,
+  "characters": [
+    {
+      "id": 0,
+      "name": "takuya",
+      "source_name": "takuya",
+      "initial_stats": {
+        "hp": 6,
+        "spirit": 5,
+        "stamina": 5,
+        "skill": 7
+      },
+      "level_caps": {
+        "hp": 210,
+        "spirit": 175,
+        "stamina": 160,
+        "skill": 170
+      },
+      "initial_unlocked": true,
+      "initial_in_party": true,
+      "sprites": {
+        "base": {
+          "resource": "spr_takuya",
+          "frames": [
+            "spr_takuya_0.png",
+            "spr_takuya_attack_0.png",
+            "spr_takuya_defeat_0.png",
+            "spr_takuya_happy_0.png",
+            "spr_takuya_spirit_0.png",
+            "spr_takuya_step_0.png",
+            "spr_takuya_1.png",
+            "spr_takuya_attack_1.png",
+            "spr_takuya_step_1.png"
+          ]
+        },
+        "walk": {
+          "resource": "spr_takuya_step",
+          "frames": [
+            "spr_takuya_step_0.png",
+            "spr_takuya_step_1.png"
+          ]
+        },
+        "defeat": {
+          "resource": "spr_takuya_defeat",
+          "frames": [
+            "spr_takuya_defeat_0.png"
+          ]
+        },
+        "happy": {
+          "resource": "spr_takuya_happy",
+          "frames": [
+            "spr_takuya_happy_0.png"
+          ]
+        },
+        "attack": {
+          "resource": "spr_takuya_attack",
+          "frames": [
+            "spr_takuya_attack_0.png",
+            "spr_takuya_attack_1.png"
+          ]
+        },
+        "spirit": {
+          "resource": "spr_takuya_spirit",
+          "frames": [
+            "spr_takuya_spirit_0.png"
+          ]
+        }
+      },
+      "spirit_slots": [
+        0,
+        1
+      ],
+      "spirit_digimon_ids": [
+        100,
+        101
+      ],
+      "ancient_digimon_id": 122,
+      "unlock_rule": {
+        "kind": "initial"
+      }
+    },
+    {
+      "id": 1,
+      "name": "koji",
+      "source_name": "koji",
+      "initial_stats": {
+        "hp": 6,
+        "spirit": 7,
+        "stamina": 5,
+        "skill": 5
+      },
+      "level_caps": {
+        "hp": 210,
+        "spirit": 160,
+        "stamina": 160,
+        "skill": 185
+      },
+      "initial_unlocked": true,
+      "initial_in_party": true,
+      "sprites": {
+        "base": {
+          "resource": "spr_koji",
+          "frames": [
+            "spr_koji_0.png",
+            "spr_koji_attack_0.png",
+            "spr_koji_defeat_0.png",
+            "spr_koji_happy_0.png",
+            "spr_koji_spirit_0.png",
+            "spr_koji_step_0.png",
+            "spr_koji_1.png",
+            "spr_koji_attack_1.png",
+            "spr_koji_step_1.png"
+          ]
+        },
+        "walk": {
+          "resource": "spr_koji_step",
+          "frames": [
+            "spr_koji_step_0.png",
+            "spr_koji_step_1.png"
+          ]
+        },
+        "defeat": {
+          "resource": "spr_koji_defeat",
+          "frames": [
+            "spr_koji_defeat_0.png"
+          ]
+        },
+        "happy": {
+          "resource": "spr_koji_happy",
+          "frames": [
+            "spr_koji_happy_0.png"
+          ]
+        },
+        "attack": {
+          "resource": "spr_koji_attack",
+          "frames": [
+            "spr_koji_attack_0.png",
+            "spr_koji_attack_1.png"
+          ]
+        },
+        "spirit": {
+          "resource": "spr_koji_spirit",
+          "frames": [
+            "spr_koji_spirit_0.png"
+          ]
+        }
+      },
+      "spirit_slots": [
+        2,
+        3
+      ],
+      "spirit_digimon_ids": [
+        102,
+        103
+      ],
+      "ancient_digimon_id": 123,
+      "unlock_rule": {
+        "kind": "initial"
+      }
+    },
+    {
+      "id": 2,
+      "name": "jp",
+      "source_name": "j p ",
+      "initial_stats": {
+        "hp": 8,
+        "spirit": 4,
+        "stamina": 8,
+        "skill": 5
+      },
+      "level_caps": {
+        "hp": 240,
+        "spirit": 195,
+        "stamina": 150,
+        "skill": 180
+      },
+      "initial_unlocked": true,
+      "initial_in_party": true,
+      "sprites": {
+        "base": {
+          "resource": "spr_jp",
+          "frames": [
+            "spr_jp_0.png",
+            "spr_jp_attack_0.png",
+            "spr_jp_defeat_0.png",
+            "spr_jp_happy_0.png",
+            "spr_jp_spirit_0.png",
+            "spr_jp_step_0.png",
+            "spr_jp_1.png",
+            "spr_jp_attack_1.png",
+            "spr_jp_step_1.png"
+          ]
+        },
+        "walk": {
+          "resource": "spr_jp_step",
+          "frames": [
+            "spr_jp_step_0.png",
+            "spr_jp_step_1.png"
+          ]
+        },
+        "defeat": {
+          "resource": "spr_jp_defeat",
+          "frames": [
+            "spr_jp_defeat_0.png"
+          ]
+        },
+        "happy": {
+          "resource": "spr_jp_happy",
+          "frames": [
+            "spr_jp_happy_0.png"
+          ]
+        },
+        "attack": {
+          "resource": "spr_jp_attack",
+          "frames": [
+            "spr_jp_attack_0.png",
+            "spr_jp_attack_1.png"
+          ]
+        },
+        "spirit": {
+          "resource": "spr_jp_spirit",
+          "frames": [
+            "spr_jp_spirit_0.png"
+          ]
+        }
+      },
+      "spirit_slots": [
+        4,
+        5
+      ],
+      "spirit_digimon_ids": [
+        104,
+        105
+      ],
+      "ancient_digimon_id": 124,
+      "unlock_rule": {
+        "kind": "initial"
+      }
+    },
+    {
+      "id": 3,
+      "name": "zoe",
+      "source_name": "zoe",
+      "initial_stats": {
+        "hp": 5,
+        "spirit": 5,
+        "stamina": 4,
+        "skill": 7
+      },
+      "level_caps": {
+        "hp": 185,
+        "spirit": 150,
+        "stamina": 190,
+        "skill": 165
+      },
+      "initial_unlocked": true,
+      "initial_in_party": true,
+      "sprites": {
+        "base": {
+          "resource": "spr_zoe",
+          "frames": [
+            "spr_zoe_0.png",
+            "spr_zoe_attack_0.png",
+            "spr_zoe_defeat_0.png",
+            "spr_zoe_happy_0.png",
+            "spr_zoe_spirit_0.png",
+            "spr_zoe_step_0.png",
+            "spr_zoe_1.png",
+            "spr_zoe_attack_1.png",
+            "spr_zoe_step_1.png"
+          ]
+        },
+        "walk": {
+          "resource": "spr_zoe_step",
+          "frames": [
+            "spr_zoe_step_0.png",
+            "spr_zoe_step_1.png"
+          ]
+        },
+        "defeat": {
+          "resource": "spr_zoe_defeat",
+          "frames": [
+            "spr_zoe_defeat_0.png"
+          ]
+        },
+        "happy": {
+          "resource": "spr_zoe_happy",
+          "frames": [
+            "spr_zoe_happy_0.png"
+          ]
+        },
+        "attack": {
+          "resource": "spr_zoe_attack",
+          "frames": [
+            "spr_zoe_attack_0.png",
+            "spr_zoe_attack_1.png"
+          ]
+        },
+        "spirit": {
+          "resource": "spr_zoe_spirit",
+          "frames": [
+            "spr_zoe_spirit_0.png"
+          ]
+        }
+      },
+      "spirit_slots": [
+        6,
+        7
+      ],
+      "spirit_digimon_ids": [
+        106,
+        107
+      ],
+      "ancient_digimon_id": 125,
+      "unlock_rule": {
+        "kind": "initial"
+      }
+    },
+    {
+      "id": 4,
+      "name": "tommy",
+      "source_name": "tommy",
+      "initial_stats": {
+        "hp": 5,
+        "spirit": 7,
+        "stamina": 5,
+        "skill": 4
+      },
+      "level_caps": {
+        "hp": 100,
+        "spirit": 180,
+        "stamina": 140,
+        "skill": 180
+      },
+      "initial_unlocked": true,
+      "initial_in_party": true,
+      "sprites": {
+        "base": {
+          "resource": "spr_tommy",
+          "frames": [
+            "spr_tommy_0.png",
+            "spr_tommy_attack_0.png",
+            "spr_tommy_defeat_0.png",
+            "spr_tommy_happy_0.png",
+            "spr_tommy_spirit_0.png",
+            "spr_tommy_step_0.png",
+            "spr_tommy_1.png",
+            "spr_tommy_attack_1.png",
+            "spr_tommy_step_1.png"
+          ]
+        },
+        "walk": {
+          "resource": "spr_tommy_step",
+          "frames": [
+            "spr_tommy_step_0.png",
+            "spr_tommy_step_1.png"
+          ]
+        },
+        "defeat": {
+          "resource": "spr_tommy_defeat",
+          "frames": [
+            "spr_tommy_defeat_0.png"
+          ]
+        },
+        "happy": {
+          "resource": "spr_tommy_happy",
+          "frames": [
+            "spr_tommy_happy_0.png"
+          ]
+        },
+        "attack": {
+          "resource": "spr_tommy_attack",
+          "frames": [
+            "spr_tommy_attack_0.png",
+            "spr_tommy_attack_1.png"
+          ]
+        },
+        "spirit": {
+          "resource": "spr_tommy_spirit",
+          "frames": [
+            "spr_tommy_spirit_0.png"
+          ]
+        }
+      },
+      "spirit_slots": [
+        8,
+        9
+      ],
+      "spirit_digimon_ids": [
+        108,
+        109
+      ],
+      "ancient_digimon_id": 126,
+      "unlock_rule": {
+        "kind": "initial"
+      }
+    },
+    {
+      "id": 5,
+      "name": "koichi",
+      "source_name": "koichi",
+      "initial_stats": {
+        "hp": 6,
+        "spirit": 5,
+        "stamina": 5,
+        "skill": 7
+      },
+      "level_caps": {
+        "hp": 110,
+        "spirit": 185,
+        "stamina": 160,
+        "skill": 160
+      },
+      "initial_unlocked": false,
+      "initial_in_party": false,
+      "sprites": {
+        "base": {
+          "resource": "spr_koichi",
+          "frames": [
+            "spr_koichi_0.png",
+            "spr_koichi_attack_0.png",
+            "spr_koichi_defeat_0.png",
+            "spr_koichi_happy_0.png",
+            "spr_koichi_spirit_0.png",
+            "spr_koichi_step_0.png",
+            "spr_koichi_1.png",
+            "spr_koichi_attack_1.png",
+            "spr_koichi_step_1.png"
+          ]
+        },
+        "walk": {
+          "resource": "spr_koichi_step",
+          "frames": [
+            "spr_koichi_step_0.png",
+            "spr_koichi_step_1.png"
+          ]
+        },
+        "defeat": {
+          "resource": "spr_koichi_defeat",
+          "frames": [
+            "spr_koichi_defeat_0.png"
+          ]
+        },
+        "happy": {
+          "resource": "spr_koichi_happy",
+          "frames": [
+            "spr_koichi_happy_0.png"
+          ]
+        },
+        "attack": {
+          "resource": "spr_koichi_attack",
+          "frames": [
+            "spr_koichi_attack_0.png",
+            "spr_koichi_attack_1.png"
+          ]
+        },
+        "spirit": {
+          "resource": "spr_koichi_spirit",
+          "frames": [
+            "spr_koichi_spirit_0.png"
+          ]
+        }
+      },
+      "spirit_slots": [
+        10,
+        11
+      ],
+      "spirit_digimon_ids": [
+        110,
+        111
+      ],
+      "ancient_digimon_id": 127,
+      "unlock_rule": {
+        "kind": "normal_game_final_completion",
+        "condition": "Win the second area-12 boss with new_game == false; sets char_unlocked[5] and char_party[5] true."
+      }
+    }
+  ],
+  "party_state_mechanics": {
+    "digistorm_loss": "The Digistorm event can set non-current char_party entries false and can teleport the player to an incomplete area.",
+    "recovery": "Digistorm recovery sets char_party true for every character where char_unlocked is true but char_party is false."
+  }
+}

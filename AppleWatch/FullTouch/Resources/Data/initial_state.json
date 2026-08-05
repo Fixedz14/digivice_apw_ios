@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "main_create_defaults": {
+    "config": {
+      "start_game": true,
+      "enable_logs": false,
+      "debug": false,
+      "enable_touch": true,
+      "enable_shake": true,
+      "scan": false,
+      "sound_enabled": true,
+      "shake_sound": false,
+      "grid_enabled": true,
+      "autorun": false,
+      "resolution": 0,
+      "colors": [
+        [
+          "#DBDBDB",
+          "#262626",
+          "#A82427"
+        ],
+        [
+          "#DBDBDB",
+          "#F3F9FF",
+          "#1C275C"
+        ],
+        [
+          "#DBDBDB",
+          "#1E4A8B",
+          "#E5B22F"
+        ],
+        [
+          "#C4EBD0",
+          "#A582C0",
+          "#ECD5F4"
+        ],
+        [
+          "#DBDBDB",
+          "#B7E0ED",
+          "#306E0C"
+        ],
+        [
+          "#DBDBDB",
+          "#1D1D1D",
+          "#696969"
+        ]
+      ]
+    },
+    "game_progress": {
+      "distance": 6000,
+      "steps": 0,
+      "dpower": 99,
+      "battles": 0,
+      "wins": 0,
+      "current_char": 0,
+      "level": 1,
+      "next_level_up": 5,
+      "next_level_down": 5,
+      "docks": [
+        0,
+        -1,
+        -1,
+        -1
+      ],
+      "new_game": false,
+      "current_area": 0,
+      "area_status": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "defeat": false,
+      "battle_start": false,
+      "event_start": false,
+      "last_encounter_is_battle": false,
+      "finish_battle_event": false,
+      "last_boss_unlocked": false
+    },
+    "spirits_unlocked": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "spirits_obtained": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "char_unlocked": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "char_party": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  },
+  "reset_function_defaults": {
+    "config": {
+      "start_game": true,
+      "enable_logs": false,
+      "debug": false,
+      "enable_touch": true,
+      "enable_shake": true,
+      "scan": false,
+      "sound_enabled": true,
+      "shake_sound": false,
+      "grid_enabled": true,
+      "autorun": false,
+      "resolution": 0,
+      "colors": "default_colors"
+    },
+    "game_progress": {
+      "distance": 999999,
+      "steps": 400,
+      "dpower": 0,
+      "battles": 0,
+      "wins": 0,
+      "current_char": 3,
+      "level": 1,
+      "next_level_up": 5,
+      "next_level_down": 5,
+      "docks": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "current_area": 0,
+      "area_status": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "defeat": false,
+      "battle_start": false,
+      "event_start": false,
+      "last_encounter_is_battle": false,
+      "new_game": false,
+      "finish_battle_event": false,
+      "last_boss_unlocked": false
+    },
+    "char_stats": [
+      {
+        "hp": 6,
+        "spirit": 5,
+        "stamina": 5,
+        "skill": 7,
+        "name": "takuya"
+      },
+      {
+        "hp": 6,
+        "spirit": 7,
+        "stamina": 5,
+        "skill": 5,
+        "name": "koji"
+      },
+      {
+        "hp": 8,
+        "spirit": 4,
+        "stamina": 8,
+        "skill": 5,
+        "name": "jp"
+      },
+      {
+        "hp": 5,
+        "spirit": 5,
+        "stamina": 4,
+        "skill": 7,
+        "name": "zoe"
+      },
+      {
+        "hp": 5,
+        "spirit": 7,
+        "stamina": 5,
+        "skill": 4,
+        "name": "tommy"
+      },
+      {
+        "hp": 6,
+        "spirit": 5,
+        "stamina": 5,
+        "skill": 7,
+        "name": "koichi"
+      }
+    ]
+  },
+  "main_vs_reset_game_progress_differences": {
+    "current_char": {
+      "main_create": 0,
+      "reset_function": 3
+    },
+    "distance": {
+      "main_create": 6000,
+      "reset_function": 999999
+    },
+    "docks": {
+      "main_create": [
+        0,
+        -1,
+        -1,
+        -1
+      ],
+      "reset_function": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    "dpower": {
+      "main_create": 99,
+      "reset_function": 0
+    },
+    "steps": {
+      "main_create": 0,
+      "reset_function": 400
+    }
+  }
+}

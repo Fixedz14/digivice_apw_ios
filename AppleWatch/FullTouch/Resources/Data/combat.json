@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "moves": [
+    {
+      "id": 0,
+      "stat": "energy",
+      "beats": 2
+    },
+    {
+      "id": 1,
+      "stat": "crunch",
+      "beats": 0
+    },
+    {
+      "id": 2,
+      "stat": "ability",
+      "beats": 1
+    }
+  ],
+  "selection_order_in_ai": [
+    0,
+    2,
+    1
+  ],
+  "matchups": [
+    {
+      "mine_move": 2,
+      "enemy_move": 1,
+      "winner": "mine"
+    },
+    {
+      "mine_move": 1,
+      "enemy_move": 2,
+      "winner": "enemy"
+    },
+    {
+      "mine_move": 1,
+      "enemy_move": 0,
+      "winner": "mine"
+    },
+    {
+      "mine_move": 0,
+      "enemy_move": 1,
+      "winner": "enemy"
+    },
+    {
+      "mine_move": 0,
+      "enemy_move": 2,
+      "winner": "mine"
+    },
+    {
+      "mine_move": 2,
+      "enemy_move": 0,
+      "winner": "enemy"
+    }
+  ],
+  "same_move_rule": "The side with the larger corresponding stat hits; equal stats cause no damage.",
+  "damage_rule": "Damage equals the winning move's energy/crunch/ability stat.",
+  "special_modifiers": [
+    {
+      "condition": "Player Digimon type is ancient and is being hit",
+      "effect": "Enemy energy, ability, and crunch are each round(value / 2) before damage."
+    },
+    {
+      "condition": "Enemy Digimon id is 130",
+      "effect": "Player energy, ability, and crunch are each max(0, value - 120) before damage."
+    }
+  ],
+  "enemy_move_filter": {
+    "algorithm": "All moves except the previous enemy move are always candidates; the previous move is retained only when irandom(100) > 50, then one candidate is random."
+  },
+  "dpower_cost": {
+    "normal_formula": "max(3, 20 - floor(level / 5))",
+    "ancient_active_cost": 20
+  },
+  "call_cost": {
+    "formula": "clamp(4 + max(0, enemy_level - player_level), 2, 6)",
+    "minimum_sp_required": "max(0, cost - 2)",
+    "failure_return": -1,
+    "success_return": "max(0, spirit_power - cost)"
+  },
+  "element_usage": "No battle calculation references `.element`; it is used by database/spirit UI only."
+}

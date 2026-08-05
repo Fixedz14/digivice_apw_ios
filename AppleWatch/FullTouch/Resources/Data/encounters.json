@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "step_and_distance_triggers": {
+    "distance_decrements_each_valid_step": 1,
+    "dpower_gain_every_steps": 100,
+    "dpower_max": 99,
+    "random_encounter_every_steps": 500,
+    "random_encounter_choice": [
+      "battle",
+      "battle",
+      "event"
+    ],
+    "force_battle_after_event": true,
+    "distance_zero_starts_boss_battle": true
+  },
+  "regular_enemy_selection": {
+    "player_level_cap_for_selection": 70,
+    "enemy_level_difference_min": 5,
+    "enemy_level_difference_max": 10,
+    "excluded_types": [
+      "spirit",
+      "boss",
+      "ancient",
+      "final_boss"
+    ],
+    "excluded_ids": [
+      96,
+      97,
+      98,
+      99
+    ],
+    "fallback_digimon": {
+      "id": 32,
+      "name": "numemon",
+      "number": 26
+    },
+    "area_independent": true
+  },
+  "normal_area_bosses": [
+    {
+      "area_id": 0,
+      "primary": {
+        "id": 131,
+        "name": "grumblemon",
+        "number": 444
+      },
+      "alternate_if_area_completed": 9,
+      "alternate": {
+        "id": 132,
+        "name": "gigasmon",
+        "number": 445
+      },
+      "canonical_capture_ids": {
+        "primary": 112,
+        "alternate": 113
+      }
+    },
+    {
+      "area_id": 1,
+      "primary": {
+        "id": 96,
+        "name": "azulogmon",
+        "number": 322
+      },
+      "alternate_if_area_completed": null,
+      "alternate": null,
+      "canonical_capture_ids": {
+        "primary": 96,
+        "alternate": null
+      }
+    },
+    {
+      "area_id": 2,
+      "primary": {
+        "id": 133,
+        "name": "arbormon",
+        "number": 446
+      },
+      "alternate_if_area_completed": 6,
+      "alternate": {
+        "id": 134,
+        "name": "petaldramon",
+        "number": 447
+      },
+      "canonical_capture_ids": {
+        "primary": 114,
+        "alternate": 115
+      }
+    },
+    {
+      "area_id": 3,
+      "primary": {
+        "id": 135,
+        "name": "mercurymon",
+        "number": 448
+      },
+      "alternate_if_area_completed": 10,
+      "alternate": {
+        "id": 136,
+        "name": "sephirotmon",
+        "number": 449
+      },
+      "canonical_capture_ids": {
+        "primary": 116,
+        "alternate": 117
+      }
+    },
+    {
+      "area_id": 4,
+      "primary": {
+        "id": 137,
+        "name": "lanamon",
+        "number": 450
+      },
+      "alternate_if_area_completed": 7,
+      "alternate": {
+        "id": 119,
+        "name": "calmaramon",
+        "number": 451
+      },
+      "canonical_capture_ids": {
+        "primary": 118,
+        "alternate": 119
+      }
+    },
+    {
+      "area_id": 5,
+      "primary": {
+        "id": 98,
+        "name": "ebonwumon",
+        "number": 320
+      },
+      "alternate_if_area_completed": null,
+      "alternate": null,
+      "canonical_capture_ids": {
+        "primary": 98,
+        "alternate": null
+      }
+    },
+    {
+      "area_id": 6,
+      "primary": {
+        "id": 133,
+        "name": "arbormon",
+        "number": 446
+      },
+      "alternate_if_area_completed": 2,
+      "alternate": {
+        "id": 134,
+        "name": "petaldramon",
+        "number": 447
+      },
+      "canonical_capture_ids": {
+        "primary": 114,
+        "alternate": 115
+      }
+    },
+    {
+      "area_id": 7,
+      "primary": {
+        "id": 137,
+        "name": "lanamon",
+        "number": 450
+      },
+      "alternate_if_area_completed": 4,
+      "alternate": {
+        "id": 138,
+        "name": "calmaramon",
+        "number": 451
+      },
+      "canonical_capture_ids": {
+        "primary": 118,
+        "alternate": 119
+      }
+    },
+    {
+      "area_id": 8,
+      "primary": {
+        "id": 97,
+        "name": "baihumon",
+        "number": 323
+      },
+      "alternate_if_area_completed": null,
+      "alternate": null,
+      "canonical_capture_ids": {
+        "primary": 97,
+        "alternate": null
+      }
+    },
+    {
+      "area_id": 9,
+      "primary": {
+        "id": 131,
+        "name": "grumblemon",
+        "number": 444
+      },
+      "alternate_if_area_completed": 0,
+      "alternate": {
+        "id": 132,
+        "name": "gigasmon",
+        "number": 445
+      },
+      "canonical_capture_ids": {
+        "primary": 112,
+        "alternate": 113
+      }
+    },
+    {
+      "area_id": 10,
+      "primary": {
+        "id": 135,
+        "name": "mercurymon",
+        "number": 448
+      },
+      "alternate_if_area_completed": 3,
+      "alternate": {
+        "id": 136,
+        "name": "sephirotmon",
+        "number": 449
+      },
+      "canonical_capture_ids": {
+        "primary": 116,
+        "alternate": 117
+      }
+    },
+    {
+      "area_id": 11,
+      "primary": {
+        "id": 99,
+        "name": "zhuqiaomon",
+        "number": 321
+      },
+      "alternate_if_area_completed": null,
+      "alternate": null,
+      "canonical_capture_ids": {
+        "primary": 99,
+        "alternate": null
+      }
+    }
+  ],
+  "final_area_boss_selection": {
+    "area_id": 12,
+    "normal_game": {
+      "last_boss_unlocked_false": {
+        "id": 120,
+        "name": "duskmon",
+        "number": 442
+      },
+      "last_boss_unlocked_true": {
+        "id": 127,
+        "name": "ancientsphinxmon",
+        "number": 476
+      }
+    },
+    "new_game": {
+      "last_boss_unlocked_false": {
+        "id": 128,
+        "name": "kerpymon",
+        "number": 467
+      },
+      "last_boss_unlocked_true": {
+        "id": 130,
+        "name": "lucemon",
+        "number": 469
+      }
+    },
+    "forced_midbattle_evolutions": [
+      {
+        "from": 120,
+        "to": 121,
+        "from_digimon": {
+          "id": 120,
+          "name": "duskmon",
+          "number": 442
+        },
+        "to_digimon": {
+          "id": 121,
+          "name": "velgrmon",
+          "number": 443
+        }
+      },
+      {
+        "from": 128,
+        "to": 129,
+        "from_digimon": {
+          "id": 128,
+          "name": "kerpymon",
+          "number": 467
+        },
+        "to_digimon": {
+          "id": 129,
+          "name": "kerpymon_black",
+          "number": 468
+        }
+      }
+    ]
+  }
+}
