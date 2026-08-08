@@ -19,7 +19,7 @@ jobs:
       - name: Build App (ข้ามการยืนยันตัวตน)
         run: |
           # ตรงนี้ต้องระบุชื่อไฟล์โปรเจกต์ให้ตรงกับในโฟลเดอร์
-          xcodebuild clean build -project "D-Tector.xcodeproj" -scheme "D-Tector" -configuration Release -sdk iphoneos CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO -derivedDataPath build_output
+          xcodebuild clean build -project "digivice_apw_ios.xcodeproj" -scheme "DTector" -configuration Release -sdk iphoneos CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO -derivedDataPath build_output
 
       - name: Package to IPA (แพ็กเป็นไฟล์ .ipa)
         run: |
