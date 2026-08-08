@@ -1,0 +1,34 @@
+name: Build Unsigned iOS App
+
+on:
+  workflow_dispatch: # อนุญาตให้เรากดปุ่มสั่งรันได้เอง
+
+jobs:
+  build:
+    runs-on: macos-latest # สั่งให้รันบนเซิร์ฟเวอร์ macOS ล่าสุด
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Xcode
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+
+      - name: Build App (ข้ามการยืนยันตัวตน)
+        run: |
+          # ตรงนี้ต้องระบุชื่อไฟล์โปรเจกต์ให้ตรงกับในโฟลเดอร์
+          xcodebuild clean build -project "D-Tector.xcodeproj" -scheme "D-Tector" -configuration Release -sdk iphoneos CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO -derivedDataPath build_output
+
+      - name: Package to IPA (แพ็กเป็นไฟล์ .ipa)
+        run: |
+          mkdir -p Payload
+          mv build_output/Build/Products/Release-iphoneos/*.app Payload/
+          zip -r app_unsigned.ipa Payload
+
+      - name: Upload Artifact (อัปโหลดไฟล์ให้เราดาวน์โหลด)
+        uses: actions/upload-artifact@v3
+        with:
+          name: Digivice-App
+          path: app_unsigned.ipa
