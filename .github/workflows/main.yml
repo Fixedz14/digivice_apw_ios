@@ -1,4 +1,4 @@
-name: Build Unsigned iOS App
+name: Find Project Files
 
 on:
   workflow_dispatch:
@@ -11,41 +11,15 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Build App (iOS + watchOS)
+      - name: สแกนหาไฟล์โปรเจกต์ทั้งหมด
         run: |
-          # 1. ค้นหาไฟล์ .xcodeproj เฉพาะในโฟลเดอร์หลักสุด (ป้องกันการไปดึงไฟล์ย่อยของ Watch)
-          PROJECT_PATH=$(find . -maxdepth 1 -name "*.xcodeproj" | head -n 1)
+          echo "======================================"
+          echo "🔍 รายชื่อไฟล์ .xcodeproj ที่พบในโปรเจกต์นี้:"
+          find . -name "*.xcodeproj"
+          echo "======================================"
+          echo "🔍 รายชื่อไฟล์ .xcworkspace ที่พบในโปรเจกต์นี้:"
+          find . -name "*.xcworkspace"
+          echo "======================================"
           
-          if [ -z "$PROJECT_PATH" ]; then
-            echo "❌ Error: ไม่พบไฟล์ .xcodeproj ในหน้าหลักของโปรเจกต์"
-            exit 1
-          fi
-          
-          echo "✅ พบไฟล์โปรเจกต์หลักที่: $PROJECT_PATH"
-          
-          PROJECT_NAME=$(basename "$PROJECT_PATH" .xcodeproj)
-          echo "🔨 กำลังเริ่ม Build โปรเจกต์ชื่อ: $PROJECT_NAME"
-
-          # 2. ใช้ -destination "generic/platform=iOS" เพื่อให้ระบบคอมไพล์ทั้งแอปมือถือและนาฬิกาได้อย่างถูกต้อง
-          xcodebuild clean build -project "$PROJECT_PATH" -scheme "$PROJECT_NAME" -configuration Release -destination "generic/platform=iOS" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO -derivedDataPath build_output
-
-      - name: Package to IPA
-        run: |
-          mkdir -p Payload
-          # ค้นหาไฟล์แอปที่คอมไพล์เสร็จแล้ว
-          APP_PATH=$(find build_output/Build/Products/Release-iphoneos -name "*.app" | head -n 1)
-          
-          if [ -n "$APP_PATH" ]; then
-            mv "$APP_PATH" Payload/
-            zip -r app_unsigned.ipa Payload
-            echo "✅ แพ็กไฟล์ .ipa สำเร็จพร้อมใช้งาน!"
-          else
-            echo "❌ Error: ไม่พบไฟล์ .app หลังจาก Build เสร็จ"
-            exit 1
-          fi
-
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: Digivice-App
-          path: app_unsigned.ipa
+          # บังคับหยุดการทำงาน เพื่อให้เราเข้าไปดู Log ได้ง่ายๆ
+          exit 1
