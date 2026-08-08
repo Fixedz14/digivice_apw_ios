@@ -9,12 +9,7 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
-
-      - name: Set up Xcode
-        uses: maxim-lobanov/setup-xcode@v1
-        with:
-          xcode-version: latest-stable
+        uses: actions/checkout@v4
 
       - name: Build App (ข้ามการยืนยันตัวตน)
         run: |
@@ -28,7 +23,7 @@ jobs:
           zip -r app_unsigned.ipa Payload
 
       - name: Upload Artifact (อัปโหลดไฟล์ให้เราดาวน์โหลด)
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Digivice-App
           path: app_unsigned.ipa
